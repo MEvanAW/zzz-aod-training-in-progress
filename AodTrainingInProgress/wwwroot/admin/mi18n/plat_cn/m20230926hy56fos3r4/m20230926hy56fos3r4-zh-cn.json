@@ -1,0 +1,11 @@
+{
+    "confirmBtn": "确认",
+    "exitBtn": "退出",
+    "gpuAccDisable": "请开启浏览器硬件加速，获得更流畅的动画体验",
+    "ios17Err": "webgl创建失败，推荐通过后台关闭进程后重新参与活动，或使用其他浏览器参与（webgl_err_toast）",
+    "loadErr": "资源加载异常，请刷新重试(load_err_toast)",
+    "loginBlock": "页面状态异常，请点击重试",
+    "refreshBtn": "刷新",
+    "retryBtn": "重试",
+    "webglErr": "当前版本过低，推荐使用其他浏览器参与活动(webgl_err_toast)"
+}

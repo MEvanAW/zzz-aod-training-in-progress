@@ -1,0 +1,104 @@
+{
+    "err_detail": "",
+    "data": {
+        "sample": {
+            "sample_rate": 1,
+            "include_users": [],
+            "sample_granularity": "session",
+            "rules": [
+                {
+                    "name": "js_error",
+                    "enable": true,
+                    "sample_rate": 1,
+                    "conditional_sample_rules": [
+                        {
+                            "sample_rate": 0,
+                            "filter": {
+                                "type": "and",
+                                "children": [
+                                    {
+                                        "type": "rule",
+                                        "field": "payload.error.message",
+                                        "op": "regex",
+                                        "groupKey": "",
+                                        "values": [
+                                            "reportWebTTI",
+                                            "samerole",
+                                            "Network Error",
+                                            "Script error",
+                                            "Abort due to cancellation of share"
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "http",
+                    "enable": true,
+                    "sample_rate": 0.00001,
+                    "conditional_sample_rules": []
+                },
+                {
+                    "name": "performance",
+                    "enable": true,
+                    "sample_rate": 0.0002,
+                    "conditional_sample_rules": []
+                },
+                {
+                    "name": "resource_error",
+                    "enable": true,
+                    "sample_rate": 0.1,
+                    "conditional_sample_rules": []
+                },
+                {
+                    "name": "resource",
+                    "enable": true,
+                    "sample_rate": 0.00003,
+                    "conditional_sample_rules": []
+                },
+                {
+                    "name": "custom",
+                    "enable": true,
+                    "sample_rate": 0.001,
+                    "conditional_sample_rules": []
+                },
+                {
+                    "name": "performance_timing",
+                    "enable": true,
+                    "sample_rate": 0.0002,
+                    "conditional_sample_rules": []
+                },
+                {
+                    "name": "performance_longtask",
+                    "enable": true,
+                    "sample_rate": 0.0001,
+                    "conditional_sample_rules": []
+                },
+                {
+                    "name": "pageview",
+                    "enable": true,
+                    "sample_rate": 0.1,
+                    "conditional_sample_rules": []
+                },
+                {
+                    "name": "action",
+                    "enable": true,
+                    "sample_rate": 0.001,
+                    "conditional_sample_rules": []
+                },
+                {
+                    "name": "blank_screen",
+                    "enable": true,
+                    "sample_rate": 0.5,
+                    "conditional_sample_rules": []
+                }
+            ]
+        },
+        "status": 0,
+        "timestamp": 1769998936449
+    },
+    "error_msg": "success",
+    "error_no": 0
+}
