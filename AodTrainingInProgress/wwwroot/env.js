@@ -1,0 +1,1 @@
+globalThis.host = 'https://localhost:7276'

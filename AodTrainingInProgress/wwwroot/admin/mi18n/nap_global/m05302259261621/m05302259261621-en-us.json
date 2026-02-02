@@ -1,0 +1,20 @@
+{
+    "btn1": "Log in with </br>HoYoverse account",
+    "btn2": "Log in with UID",
+    "btn3": "Send verification code",
+    "btn4": "Sent ({x}s)",
+    "cancelBtn": "Cancel",
+    "changedPromptConfirm": "Confirm",
+    "changedPromptTip": "The current HoYoverse Account has been changed. Are you sure you want to switch to the new HoYoverse Account's character?",
+    "codeToast": "A verification code has been sent to the in-game mailbox of the corresponding character. (Verification code valid for 10 minutes)",
+    "confirmBtn": "Confirm",
+    "invalidPromptConfirm": "Login In Again",
+    "invalidPromptTip": "Login no longer valid. Please login again to switch characters",
+    "loginBtn": "Log In",
+    "loginTip": "",
+    "placeholder1": "Please Select Server",
+    "placeholder2": "Please enter character UID",
+    "placeholder3": "Please enter your Inter-Knot Level",
+    "placeholder4": "Verification code",
+    "switchTip": "You are currently not logged in, please select a login method"
+}

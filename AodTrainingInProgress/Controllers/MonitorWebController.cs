@@ -2,10 +2,11 @@
 
 namespace AodTrainingInProgress.Controllers
 {
+    [Route("monitor_web")]
     public class MonitorWebController : Controller
     {
-        [Route("monitor_web/collect")]
-        public IActionResult Info()
+        [Route("collect")]
+        public IActionResult Collect()
         {
             return NoContent();
         }

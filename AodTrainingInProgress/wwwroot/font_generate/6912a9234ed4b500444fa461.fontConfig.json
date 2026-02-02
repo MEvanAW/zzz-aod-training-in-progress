@@ -1,0 +1,85 @@
+{
+    "fontList": {
+        "title_font": {
+            "zh-tw": {
+                "fileName": "m20251014hy2e1kt0jk_nap_global_zh-tw_w0uwcm",
+                "woff": "",
+                "woff2": "",
+                "split_key": ""
+            },
+            "ja-jp": {
+                "fileName": "m20251014hy2e1kt0jk_nap_global_ja-jp_a9o8a3",
+                "woff": "",
+                "woff2": "",
+                "split_key": ""
+            },
+            "de-de": {
+                "fileName": "m20251014hy2e1kt0jk_nap_global_de-de_v3d5gn",
+                "woff": "",
+                "woff2": "",
+                "split_key": ""
+            },
+            "en-us": {
+                "fileName": "m20251014hy2e1kt0jk_nap_global_en-us_pp5e7i",
+                "woff": "",
+                "woff2": "",
+                "split_key": ""
+            },
+            "es-es": {
+                "fileName": "m20251014hy2e1kt0jk_nap_global_es-es_ujg1tx",
+                "woff": "",
+                "woff2": "",
+                "split_key": ""
+            },
+            "fr-fr": {
+                "fileName": "m20251014hy2e1kt0jk_nap_global_fr-fr_0pqwjh",
+                "woff": "",
+                "woff2": "",
+                "split_key": ""
+            },
+            "id-id": {
+                "fileName": "m20251014hy2e1kt0jk_nap_global_id-id_upwmd1",
+                "woff": "",
+                "woff2": "",
+                "split_key": ""
+            },
+            "pt-pt": {
+                "fileName": "m20251014hy2e1kt0jk_nap_global_pt-pt_bmg2p5",
+                "woff": "",
+                "woff2": "",
+                "split_key": ""
+            },
+            "ru-ru": {
+                "fileName": "m20251014hy2e1kt0jk_nap_global_ru-ru_vvz74r",
+                "woff": "",
+                "woff2": "",
+                "split_key": ""
+            },
+            "ko-kr": {
+                "fileName": "m20251014hy2e1kt0jk_nap_global_ko-kr_jsjtzh",
+                "woff": "",
+                "woff2": "",
+                "split_key": ""
+            },
+            "zh-cn": {
+                "fileName": "m20251014hy2e1kt0jk_nap_global_zh-cn_1rvu8j",
+                "woff": "",
+                "woff2": "",
+                "split_key": ""
+            },
+            "vi-vn": {
+                "fileName": "m20251014hy2e1kt0jk_nap_global_vi-vn_4qpsyy",
+                "woff": "",
+                "woff2": "",
+                "split_key": ""
+            },
+            "th-th": {
+                "fileName": "",
+                "woff": "https://fastcdn.hoyoverse.com/static-resource-v2/2023/08/24/befde50a7de325d2aabd8ff40de8f6ec_7465289183091799407.woff",
+                "woff2": "https://fastcdn.hoyoverse.com/static-resource-v2/2023/08/24/1e71c509060ab1957fd71613b9b8ac04_55699035665872767.woff2",
+                "split_key": ""
+            }
+        }
+    },
+    "createTime": "1/29/2026, 8:54:04 PM"
+}
