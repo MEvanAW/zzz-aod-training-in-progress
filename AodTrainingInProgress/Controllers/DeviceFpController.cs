@@ -55,5 +55,22 @@ namespace AodTrainingInProgress.Controllers
                 }
             });
         }
+
+        [Route("api/getFp")]
+        public IActionResult GetFp()
+        {
+            return Ok(new Dictionary<string, object>
+            {
+                { "retcode", 0 },
+                { "message", "OK" },
+                { "data", new Dictionary<string, object>
+                    {
+                        {"device_fp", "38d7f48794a6f" },
+                        { "code", 200 },
+                        { "msg", "ok"}
+                    }
+                }
+            });
+        }
     }
 }

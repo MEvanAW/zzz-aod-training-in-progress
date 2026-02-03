@@ -3931,7 +3931,7 @@
         OSBatchUrl["prerelease"] = "https://minor-api-os.hoyoverse.com/common/h5log/log/batch?topic=";
         OSBatchUrl["beta"] = "https://minor-api-os.hoyoverse.com/common/h5log/log/batch?topic=";
         OSBatchUrl["sandbox"] = "https://testing-h5log-api.hoyoverse.com/common/h5log/log/batch?topic=";
-        OSBatchUrl["production"] = "https://minor-api-os.hoyoverse.com/common/h5log/log/batch?topic=";
+        OSBatchUrl["production"] = `${host}/common/h5log/log/batch?topic=`;
     })(OSBatchUrl || (OSBatchUrl = {}));
 
     /* eslint-disable @typescript-eslint/ban-ts-comment */

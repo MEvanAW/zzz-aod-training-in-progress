@@ -15,5 +15,16 @@ namespace AodTrainingInProgress.Controllers
                 { "retcode", -100 }
             });
         }
+
+        [Route("h5log/log/batch")]
+        public IActionResult Batch()
+        {
+            return Ok(new Dictionary<string, object?>
+            {
+                { "retcode", 0 },
+                { "message", "success" },
+                { "data", null }
+            });
+        }
     }
 }
