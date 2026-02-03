@@ -22700,7 +22700,7 @@
                 t.BOX_API_BASE = host,
                 t.HOYOLAB_BASE = "https://www.hoyolab.com",
                 t.PASSPORT_FE_BASE = "https://account.hoyoverse.com",
-                t.LOGIN_PLATFORM_FE_BASE = "https://account.hoyoverse.com/login-platform",
+                t.LOGIN_PLATFORM_FE_BASE = `${host}/login-platform`,
                 t.LOGIN_SINGLE_PAGE_FE_BASE = "https://account.hoyoverse.com/single-page",
                 t.ENCRYPT_KEY = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4PMS2JVMwBsOIrYWRluY\nwEiFZL7Aphtm9z5Eu/anzJ09nB00uhW+ScrDWFECPwpQto/GlOJYCUwVM/raQpAj\n/xvcjK5tNVzzK94mhk+j9RiQ+aWHaTXmOgurhxSp3YbwlRDvOgcq5yPiTz0+kSeK\nZJcGeJ95bvJ+hJ/UMP0Zx2qB5PElZmiKvfiNqVUk8A8oxLJdBB5eCpqWV6CUqDKQ\nKSQP4sM0mZvQ1Sr4UcACVcYgYnCbTZMWhJTWkrNXqI8TMomekgny3y+d6NX/cFa6\n6jozFIF4HCX5aW8bp8C8vq2tFvFbleQ/Q3CU56EWWKMrOcpmFtRmC18s9biZBVR/\n8QIDAQAB",
                 t.CONTENT_API_BASE = "https://sg-public-api-static.hoyoverse.com/content_v2_user",

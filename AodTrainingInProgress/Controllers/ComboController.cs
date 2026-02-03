@@ -11,13 +11,11 @@ namespace AodTrainingInProgress.Controllers
             return Ok(new Dictionary<string, object?> {
                 { "retcode", 0 },
                 { "message", "OK" },
-                { "data", new Dictionary<string, object?>
-                    {
-                        { "enableLegacyExemptions", "true" },
-                        { "enableV2XLogin", "true" },
-                        { "enableDomainRedirect", "true" },
-                    }
-                },
+                { "data", new Dictionary<string, object?>{
+                    { "enableLegacyExemptions", "true" },
+                    { "enableV2XLogin", "true" },
+                    { "enableDomainRedirect", "true" },
+                }},
             });
         }
     }
