@@ -1,4 +1,4 @@
-﻿using AodTrainingInProgress.DTO;
+﻿using AodTrainingInProgress.DTO.Account;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AodTrainingInProgress.Controllers
@@ -91,6 +91,40 @@ namespace AodTrainingInProgress.Controllers
                         { "birth", "0" }
                     }},
                     { "reactivate_action_ticket", string.Empty }
+                }},
+            });
+        }
+
+        [Route("binding/api/getAllRegions")]
+        public IActionResult GetAllRegions()
+        {
+            return Ok(new Dictionary<string, object?>{
+                { "retcode", 0 },
+                { "message", "OK" },
+                { "data", new Dictionary<string, object?>{
+                    { "list", new List<RegionDto>{
+                        new() { Name = "Asia", Region = "prod_gf_jp" },
+                        new() { Name = "America", Region = "prod_gf_us" },
+                        new() { Name = "Europe", Region = "prod_gf_eu" },
+                        new() { Name = "TW,HK,MO", Region = "prod_gf_sg" },
+                    }}
+                }},
+            });
+        }
+
+        [Route("binding/api/getUserGameRolesByCookieToken")]
+        public IActionResult GetUserGameRolesByCookieToken()
+        {
+            return Ok(new Dictionary<string, object?>{
+                { "retcode", 0 },
+                { "message", "OK" },
+                { "data", new Dictionary<string, object?>{
+                    { "list", new List<UserGameRoleDto>{
+                        new() { GameBiz = "nap_global", Region = "prod_gf_jp", GameUid = "1000000000", Nickname = "Phaethon", Level = 60, IsChosen = true, RegionName = "Asia", IsOfficial = true },
+                        new() { GameBiz = "nap_global", Region = "prod_gf_us", GameUid = "1000000000", Nickname = "Phaethon", Level = 60, RegionName = "America", IsOfficial = true },
+                        new() { GameBiz = "nap_global", Region = "prod_gf_eu", GameUid = "1000000000", Nickname = "Phaethon", Level = 60, RegionName = "Europe", IsOfficial = true },
+                        new() { GameBiz = "nap_global", Region = "prod_gf_sg", GameUid = "1000000000", Nickname = "Phaethon", Level = 60, RegionName = "TW,HK,MO", IsOfficial = true },
+                    }}
                 }},
             });
         }
