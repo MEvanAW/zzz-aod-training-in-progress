@@ -1,4 +1,5 @@
 using AodTrainingInProgress.Infrastructure;
+using AodTrainingInProgress.Models;
 using AodTrainingInProgress.Services;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -8,7 +9,7 @@ builder.Services.AddControllers();
 var connectionString = "Data Source=AodTrainingInProgressV1.db";
 
 builder.Services.AddSingleton(new SqliteConfig(connectionString));
-builder.Services.AddTransient<IUserService, SqliteUserV1Service>();
+builder.Services.AddTransient<IUserService<UserV1>, SqliteUserV1Service>();
 
 var app = builder.Build();
 

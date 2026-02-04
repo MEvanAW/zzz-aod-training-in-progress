@@ -1,15 +1,16 @@
 ﻿using AodTrainingInProgress.DTO.Account;
 using AodTrainingInProgress.Infrastructure;
+using AodTrainingInProgress.Models;
 using AodTrainingInProgress.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AodTrainingInProgress.Controllers
 {
     [Route("account")]
-    public class AccountController(SqliteConfig sqliteConfig, IUserService userService) : Controller
+    public class AccountController(SqliteConfig sqliteConfig, IUserService<UserV1> userService) : Controller
     {
         protected string _connectionString = sqliteConfig.ConnectionString;
-        protected IUserService _userService = userService;
+        protected IUserService<UserV1> _userService = userService;
 
         [Route("ma-passport/token/verifyCookieToken")]
         public IActionResult VerifyCookieToken()

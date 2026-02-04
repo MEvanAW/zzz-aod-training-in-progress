@@ -1,11 +1,12 @@
 ﻿using AodTrainingInProgress.DTO.Index;
 using AodTrainingInProgress.Infrastructure;
+using AodTrainingInProgress.Models;
 using Microsoft.Data.Sqlite;
 using System.Text.Json;
 
 namespace AodTrainingInProgress.Services
 {
-    public class SqliteUserV1Service(SqliteConfig sqliteConfig) : IUserService
+    public class SqliteUserV1Service(SqliteConfig sqliteConfig) : IUserService<UserV1>
     {
         protected string _connectionString = sqliteConfig.ConnectionString;
 
@@ -150,7 +151,39 @@ namespace AodTrainingInProgress.Services
             command.Parameters.AddWithValue("$userActivityInfo", JsonSerializer.Serialize(userActivityInfo));
 
             var result = await command.ExecuteScalarAsync();
+            connection.Close();
             return Convert.ToInt64(result);
+        }
+
+        public async Task<UserV1?> ReadUserAsync(string account)
+        {
+            using var connection = new SqliteConnection(_connectionString);
+            connection.Open();
+
+            using var command = connection.CreateCommand();
+            command.CommandText = """
+                SELECT
+                    Id,
+                    Account,
+                    UserActivityInfo
+                FROM User_v1
+                WHERE Account = $account;
+            """;
+            command.Parameters.AddWithValue("$account", account);
+
+            using var reader = await command.ExecuteReaderAsync();
+
+            if (!reader.Read())
+            {
+                return null;
+            }   
+
+            return new UserV1
+            {
+                Id = reader.GetInt64(0),
+                Account = reader.GetString(1),
+                UserActivityInfo = reader.GetString(2)
+            };
         }
     }
 }
