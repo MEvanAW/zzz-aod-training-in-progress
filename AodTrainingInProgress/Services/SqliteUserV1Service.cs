@@ -131,6 +131,10 @@ namespace AodTrainingInProgress.Services
                     }}
                 }},
             };
+            var options = new JsonSerializerOptions
+            {
+                PropertyNamingPolicy = JsonNamingPolicy.SnakeCaseLower
+            };
 
             using var connection = new SqliteConnection(_connectionString);
             connection.Open();
@@ -148,7 +152,7 @@ namespace AodTrainingInProgress.Services
                 SELECT last_insert_rowid();
             """;
             command.Parameters.AddWithValue("$account", account);
-            command.Parameters.AddWithValue("$userActivityInfo", JsonSerializer.Serialize(userActivityInfo));
+            command.Parameters.AddWithValue("$userActivityInfo", SerializationService.Serialize(userActivityInfo));
 
             var result = await command.ExecuteScalarAsync();
             connection.Close();
