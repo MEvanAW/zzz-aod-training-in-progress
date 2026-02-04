@@ -1,10 +1,15 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using AodTrainingInProgress.Infrastructure;
+using AodTrainingInProgress.Services;
+using Microsoft.AspNetCore.Mvc;
 
 namespace AodTrainingInProgress.Controllers
 {
     [Route("common")]
-    public class CommonController : Controller
+    public class CommonController(SqliteConfig sqliteConfig, IUserService userService) : Controller
     {
+        protected string _connectionString = sqliteConfig.ConnectionString;
+        protected IUserService _userService = userService;
+
         [Route("badge/v1/login/account")]
         public IActionResult Account()
         {
@@ -25,13 +30,33 @@ namespace AodTrainingInProgress.Controllers
         }
 
         [Route("badge/v1/login/info")]
-        public IActionResult Info()
+        public IActionResult Info([FromQuery] string account)
         {
+            if (string.IsNullOrEmpty(account) || !_userService.AccountExist(account))
+            {
+                return Ok(new Dictionary<string, object?>
+                {
+                    { "data", null },
+                    { "message", "Not Logged In" },
+                    { "retcode", -100 }
+                });
+            }
+
             return Ok(new Dictionary<string, object?>
             {
-                { "data", null },
-                { "message", "Not Logged In" },
-                { "retcode", -100 }
+                { "retcode", 0 },
+                { "message", "OK" },
+                { "data", new Dictionary<string, object?>{
+                    { "game", "nap" },
+                    { "region", "prod_gf_jp" },
+                    { "game_uid", "1000000000" },
+                    { "game_biz", string.Empty },
+                    { "level", 60 },
+                    { "nickname", account },
+                    { "region_name", "prod_gf_jp" },
+                    { "type", 0 },
+                    { "account_id", "100000000" },
+                }},
             });
         }
 

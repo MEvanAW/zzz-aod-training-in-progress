@@ -1,17 +1,15 @@
 ﻿using AodTrainingInProgress.DTO.Account;
+using AodTrainingInProgress.Infrastructure;
+using AodTrainingInProgress.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AodTrainingInProgress.Controllers
 {
     [Route("account")]
-    public class AccountController : Controller
+    public class AccountController(SqliteConfig sqliteConfig, IUserService userService) : Controller
     {
-        protected ILogger<AccountController> _logger;
-
-        public AccountController(ILogger<AccountController> logger)
-        {
-            _logger = logger;
-        }
+        protected string _connectionString = sqliteConfig.ConnectionString;
+        protected IUserService _userService = userService;
 
         [Route("ma-passport/token/verifyCookieToken")]
         public IActionResult VerifyCookieToken()
@@ -58,8 +56,18 @@ namespace AodTrainingInProgress.Controllers
 
         [HttpPost]
         [Route("ma-passport/api/webLoginByPassword")]
-        public IActionResult WebLoginByPassword([FromBody] WebLoginByPasswordRequest request)
+        public async Task<IActionResult> WebLoginByPassword([FromBody] WebLoginByPasswordRequest request)
         {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest("account is requried.");
+            }
+
+            if (!_userService.AccountExist(request.Account))
+            {
+                await _userService.CreateUserAsync(request.Account);
+            }
+
             return Ok(new Dictionary<string, object?>{
                 { "retcode", 0 },
                 { "message", "OK" },
@@ -130,7 +138,7 @@ namespace AodTrainingInProgress.Controllers
             });
         }
 
-        private static string MaskAccount(string account)
+        protected static string MaskAccount(string account)
         {
             if (string.IsNullOrEmpty(account))
                 return account;
