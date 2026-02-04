@@ -56,6 +56,7 @@ namespace AodTrainingInProgress.Controllers
             });
         }
 
+        [HttpPost]
         [Route("ma-passport/api/webLoginByPassword")]
         public IActionResult WebLoginByPassword([FromBody] WebLoginByPasswordRequest request)
         {
