@@ -5,5 +5,6 @@
         public bool AccountExist(string account);
         public Task<long> CreateUserAsync(string account);
         public Task<TUser?> ReadUserAsync(string account);
+        public Task<long> UpdateUserAsync(string account, TUser user);
     }
 }

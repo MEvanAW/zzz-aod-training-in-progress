@@ -1,4 +1,4 @@
-﻿using System.Text.Json;
+﻿using System.Text.Json.Nodes;
 
 namespace AodTrainingInProgress.Models
 {
@@ -12,9 +12,9 @@ namespace AodTrainingInProgress.Models
         public string? ActShowInfo { get; set; }
         public string? OtherData { get; set; }
 
-        public JsonDocument UserActivityInfoJson => JsonDocument.Parse(UserActivityInfo);
-        public JsonDocument? SignPicJson => SignPic is null ? null : JsonDocument.Parse(SignPic);
-        public JsonDocument? ActShowInfoJson => ActShowInfo is null ? null : JsonDocument.Parse(ActShowInfo);
-        public JsonDocument? OtherDataJson => OtherData is null ? null : JsonDocument.Parse(OtherData);
+        public JsonNode UserActivityInfoJson => JsonNode.Parse(UserActivityInfo)!;
+        public JsonNode? SignPicJson => SignPic is null ? null : JsonNode.Parse(SignPic);
+        public JsonNode? ActShowInfoJson => ActShowInfo is null ? null : JsonNode.Parse(ActShowInfo);
+        public JsonNode? OtherDataJson => OtherData is null ? null : JsonNode.Parse(OtherData);
     }
 }

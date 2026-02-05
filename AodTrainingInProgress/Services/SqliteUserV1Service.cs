@@ -28,8 +28,6 @@ namespace AodTrainingInProgress.Services
 
                 var result = command.ExecuteScalar();
                 count = Convert.ToInt32(result);
-
-                connection.Close();
             }
 
             return count > 0;
@@ -155,7 +153,6 @@ namespace AodTrainingInProgress.Services
             command.Parameters.AddWithValue("$userActivityInfo", SerializationService.Serialize(userActivityInfo));
 
             var result = await command.ExecuteScalarAsync();
-            connection.Close();
             return Convert.ToInt64(result);
         }
 
@@ -188,6 +185,24 @@ namespace AodTrainingInProgress.Services
                 Account = reader.GetString(1),
                 UserActivityInfo = reader.GetString(2)
             };
+        }
+
+        public async Task<long> UpdateUserAsync(string account, UserV1 user)
+        {
+            using var connection = new SqliteConnection(_connectionString);
+            connection.Open();
+
+            using var command = connection.CreateCommand();
+            command.CommandText = """
+                UPDATE User_v1
+                SET UserActivityInfo = $userActivityInfo
+                WHERE Account = $account
+            """;
+            command.Parameters.AddWithValue("$account", account);
+            command.Parameters.AddWithValue("$userActivityInfo", user.UserActivityInfo);
+
+            var result = await command.ExecuteScalarAsync();
+            return Convert.ToInt64(result);
         }
     }
 }
