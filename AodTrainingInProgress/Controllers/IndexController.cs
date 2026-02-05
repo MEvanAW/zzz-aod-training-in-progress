@@ -15,6 +15,7 @@ namespace AodTrainingInProgress.Controllers
         protected string _connectionString = sqliteConfig.ConnectionString;
         protected static readonly string _inprogressStatus = "InProgress";
         protected ILogger<IndexController> _logger = logger;
+        protected static readonly string _receivedStatus = "Received";
         protected IUserService<UserV1> _userService = userService;
 
         [Route("index")]
@@ -85,8 +86,11 @@ namespace AodTrainingInProgress.Controllers
                     break;
                 }
             }
-            JsonObject? activityProgress = null;
+
             var skillInfo = (userActivityInfoJson["skill_info"]?.AsObject()) ?? throw new InvalidOperationException("skill_info not found");
+            var signInfo = (userActivityInfoJson["sign_info"]?.AsObject()) ?? throw new InvalidOperationException("sign_info not found");
+            var signs = (signInfo["signs"]!.AsArray()) ?? throw new InvalidOperationException("signs not found");
+            JsonObject? activityProgress;
             switch (request.OccurrenceId)
             {
                 case 10102:
@@ -95,7 +99,15 @@ namespace AodTrainingInProgress.Controllers
                     activityProgress["week"] = 2;
                     UnlockOccurrence(userActivityInfoJson, 10201);
                     skillInfo["skill_2_unlocked"] = true;
-                    skillInfo["ability_c"] = (int) skillInfo["ability_c"]! + 1;
+                    skillInfo["ability_c"] = (int)skillInfo["ability_c"]! + 1;
+                    foreach (var node in signs)
+                    {
+                        if ((int)node?["sign_id"]! == 402)
+                        {
+                            node!["status"] = _inprogressStatus;
+                            break;
+                        }
+                    }
                     break;
                 case 10202:
                     activityProgress = (userActivityInfoJson["activity_progress"]?.AsObject()) ?? throw new InvalidOperationException("activity_progress not found");
@@ -103,7 +115,15 @@ namespace AodTrainingInProgress.Controllers
                     activityProgress["week"] = 3;
                     UnlockOccurrence(userActivityInfoJson, 10301);
                     skillInfo["skill_3_unlocked"] = true;
-                    skillInfo["ability_d"] = (int) skillInfo["ability_d"]! + 1;
+                    skillInfo["ability_d"] = (int)skillInfo["ability_d"]! + 1;
+                    foreach (var node in signs)
+                    {
+                        if ((int)node?["sign_id"]! == 403)
+                        {
+                            node!["status"] = _inprogressStatus;
+                            break;
+                        }
+                    }
                     break;
                 case 10302:
                     activityProgress = (userActivityInfoJson["activity_progress"]?.AsObject()) ?? throw new InvalidOperationException("activity_progress not found");
@@ -111,12 +131,28 @@ namespace AodTrainingInProgress.Controllers
                     activityProgress["week"] = 4;
                     UnlockOccurrence(userActivityInfoJson, 10401);
                     skillInfo["skill_ultimate_unlocked"] = true;
+                    foreach (var node in signs)
+                    {
+                        if ((int)node?["sign_id"]! == 404)
+                        {
+                            node!["status"] = _inprogressStatus;
+                            break;
+                        }
+                    }
                     break;
                 case 10402:
                     activityProgress = (userActivityInfoJson["activity_progress"]?.AsObject()) ?? throw new InvalidOperationException("activity_progress not found");
                     activityProgress["day"] = 1;
                     activityProgress["week"] = 5;
                     UnlockOccurrence(userActivityInfoJson, 10501);
+                    foreach (var node in signs)
+                    {
+                        if ((int)node?["sign_id"]! == 405)
+                        {
+                            node!["status"] = _inprogressStatus;
+                            break;
+                        }
+                    }
                     break;
                 default:
                     break;
@@ -204,6 +240,27 @@ namespace AodTrainingInProgress.Controllers
                     {
                         activityProgress["week_challenge_finished"] = canChallengeWeeks.DeepClone();
                         UnlockOccurrence(userActivityInfoJson, 10102);
+                    }
+                    break;
+                case 2:
+                    if (request.Score >= 15000)
+                    {
+                        activityProgress["week_challenge_finished"] = canChallengeWeeks.DeepClone();
+                        UnlockOccurrence(userActivityInfoJson, 10202);
+                    }
+                    break;
+                case 3:
+                    if (request.Score >= 25000)
+                    {
+                        activityProgress["week_challenge_finished"] = canChallengeWeeks.DeepClone();
+                        UnlockOccurrence(userActivityInfoJson, 10302);
+                    }
+                    break;
+                case 4:
+                    if (request.Score >= 35000)
+                    {
+                        activityProgress["week_challenge_finished"] = canChallengeWeeks.DeepClone();
+                        UnlockOccurrence(userActivityInfoJson, 10402);
                     }
                     break;
                 default:
