@@ -214,10 +214,10 @@ namespace AodTrainingInProgress.Controllers
 
             var userActivityInfoJson = user!.UserActivityInfoJson;
             var scoreInfo = (userActivityInfoJson["score_info"]?.AsObject()) ?? throw new InvalidOperationException("guide_id not found");
-            scoreInfo["total_score"] = request.Score.ToString();
+            scoreInfo["total_score"] = (request.Score + int.Parse((string?) scoreInfo["total_score"] ?? "0")).ToString();
             if (request.Score > int.Parse((string) scoreInfo["history_max_score"]!))
             {
-                scoreInfo["history_max_score"] = (string) scoreInfo["total_score"]!;
+                scoreInfo["history_max_score"] = request.Score.ToString();
             }
 
             var skillInfo = (userActivityInfoJson["skill_info"]?.AsObject()) ?? throw new InvalidOperationException("skill_info not found");
@@ -366,6 +366,43 @@ namespace AodTrainingInProgress.Controllers
                     break;
             }
 
+
+            user.UserActivityInfo = userActivityInfoJson.ToJsonString();
+            await _userService.UpdateUserAsync(request.Account, user);
+
+            return Ok(new Dictionary<string, object?> {
+                { "retcode", 0 },
+                { "message", "OK" },
+                { "data", userActivityInfoJson },
+            });
+        }
+
+        [HttpPost]
+        [Route("sign")]
+        public async Task<IActionResult> Sign([FromBody] SignRequest request)
+        {
+            if (string.IsNullOrEmpty(request.Account))
+            {
+                return BadRequest(_accountRequiredMessage);
+            }
+            if (!_userService.AccountExist(request.Account))
+            {
+                return BadRequest(_accountNotExistMessage);
+            }
+
+            var user = await _userService.ReadUserAsync(request.Account);
+
+            var userActivityInfoJson = user!.UserActivityInfoJson;
+
+            var signs = (userActivityInfoJson["sign_info"]?["signs"]?.AsArray()) ?? throw new InvalidOperationException("signs not found");
+            foreach (var node in signs)
+            {
+                if ((int) node?["sign_id"]! == request.SignIds[0])
+                {
+                    node!["status"] = _receivedStatus;
+                    break;
+                }
+            }
 
             user.UserActivityInfo = userActivityInfoJson.ToJsonString();
             await _userService.UpdateUserAsync(request.Account, user);
