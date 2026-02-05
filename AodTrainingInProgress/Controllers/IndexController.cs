@@ -3,6 +3,7 @@ using AodTrainingInProgress.Infrastructure;
 using AodTrainingInProgress.Models;
 using AodTrainingInProgress.Services;
 using Microsoft.AspNetCore.Mvc;
+using System.Text.Json.Nodes;
 
 namespace AodTrainingInProgress.Controllers
 {
@@ -84,6 +85,42 @@ namespace AodTrainingInProgress.Controllers
                     break;
                 }
             }
+            JsonObject? activityProgress = null;
+            var skillInfo = (userActivityInfoJson["skill_info"]?.AsObject()) ?? throw new InvalidOperationException("skill_info not found");
+            switch (request.OccurrenceId)
+            {
+                case 10102:
+                    activityProgress = (userActivityInfoJson["activity_progress"]?.AsObject()) ?? throw new InvalidOperationException("activity_progress not found");
+                    activityProgress["day"] = 1;
+                    activityProgress["week"] = 2;
+                    UnlockOccurrence(userActivityInfoJson, 10201);
+                    skillInfo["skill_2_unlocked"] = true;
+                    skillInfo["ability_c"] = (int) skillInfo["ability_c"]! + 1;
+                    break;
+                case 10202:
+                    activityProgress = (userActivityInfoJson["activity_progress"]?.AsObject()) ?? throw new InvalidOperationException("activity_progress not found");
+                    activityProgress["day"] = 1;
+                    activityProgress["week"] = 3;
+                    UnlockOccurrence(userActivityInfoJson, 10301);
+                    skillInfo["skill_3_unlocked"] = true;
+                    skillInfo["ability_d"] = (int) skillInfo["ability_d"]! + 1;
+                    break;
+                case 10302:
+                    activityProgress = (userActivityInfoJson["activity_progress"]?.AsObject()) ?? throw new InvalidOperationException("activity_progress not found");
+                    activityProgress["day"] = 1;
+                    activityProgress["week"] = 4;
+                    UnlockOccurrence(userActivityInfoJson, 10401);
+                    skillInfo["skill_ultimate_unlocked"] = true;
+                    break;
+                case 10402:
+                    activityProgress = (userActivityInfoJson["activity_progress"]?.AsObject()) ?? throw new InvalidOperationException("activity_progress not found");
+                    activityProgress["day"] = 1;
+                    activityProgress["week"] = 5;
+                    UnlockOccurrence(userActivityInfoJson, 10501);
+                    break;
+                default:
+                    break;
+            }
 
             user.UserActivityInfo = userActivityInfoJson.ToJsonString();
             await _userService.UpdateUserAsync(request.Account, user);
@@ -147,6 +184,32 @@ namespace AodTrainingInProgress.Controllers
                 scoreInfo["history_max_score"] = (string) scoreInfo["total_score"]!;
             }
 
+            var skillInfo = (userActivityInfoJson["skill_info"]?.AsObject()) ?? throw new InvalidOperationException("skill_info not found");
+            skillInfo["skill_1_unlocked"] = true;
+
+            var activityProgress = (userActivityInfoJson["activity_progress"]?.AsObject()) ?? throw new InvalidOperationException("activity_progress not found");
+            var canChallengeWeeks = activityProgress["can_challenge_weeks"] as JsonObject ?? [];
+            int maxWeek = 0;
+            foreach (var (key, _) in canChallengeWeeks)
+            {
+                if (int.TryParse(key, out var week))
+                {
+                    maxWeek = Math.Max(maxWeek, week);
+                }
+            }
+            switch (maxWeek)
+            {
+                case 1:
+                    if (request.Score >= 5000)
+                    {
+                        activityProgress["week_challenge_finished"] = canChallengeWeeks.DeepClone();
+                        UnlockOccurrence(userActivityInfoJson, 10102);
+                    }
+                    break;
+                default:
+                    throw new NotImplementedException("week challenge case has not been implemented.");
+            }
+
             user.UserActivityInfo = userActivityInfoJson.ToJsonString();
             await _userService.UpdateUserAsync(request.Account, user);
 
@@ -176,24 +239,27 @@ namespace AodTrainingInProgress.Controllers
             var user = await _userService.ReadUserAsync(request.Account);
 
             var userActivityInfoJson = user!.UserActivityInfoJson;
-            var activityProgress = (userActivityInfoJson["activity_progress"]?.AsObject()) ?? throw new InvalidOperationException("skill_info not found");
-            activityProgress["day"] = (int)activityProgress["day"]! + 1;
+
+            var activityProgress = (userActivityInfoJson["activity_progress"]?.AsObject()) ?? throw new InvalidOperationException("activity_progress not found");
+            int day = (int)activityProgress["day"]!;
+            int week = (int)activityProgress["week"]!;
+            if (day == 5)
+            {
+                var canChallengeWeeks = activityProgress["can_challenge_weeks"] as JsonObject ?? [];
+                canChallengeWeeks[week.ToString()] = true;
+                activityProgress["can_challenge_weeks"] = canChallengeWeeks;
+            }
+            else
+            {
+                activityProgress["day"] = ++day;
+            }
+            if (week == 1 && day == 3) UnlockOccurrence(userActivityInfoJson, 20101);
+            else if (week == 2 && day == 3) UnlockOccurrence(userActivityInfoJson, 20201);
+            else if (week == 3 && day == 3) UnlockOccurrence(userActivityInfoJson, 20301);
+            else if (week == 4 && day == 3) UnlockOccurrence(userActivityInfoJson, 20401);
 
             var skillInfo = (userActivityInfoJson["skill_info"]?.AsObject()) ?? throw new InvalidOperationException("skill_info not found");
             skillInfo["skill_point"] = (int)skillInfo["skill_point"]! + 1;
-            if ((int) skillInfo["skill_point"]! == 1)
-            {
-                skillInfo["skill_1_unlocked"] = true;
-                var occurrences = (userActivityInfoJson["occurrence_info"]?["occurrences"]?.AsArray()) ?? throw new InvalidOperationException("occurrences not found");
-                foreach (var node in occurrences)
-                {
-                    if ((int)node?["occurrence_id"]! == 30201)
-                    {
-                        node!["status"] = _inprogressStatus;
-                        break;
-                    }
-                }
-            }
             switch (request.ImproveAbilityRequest.AbilityType)
             {
                 case 1:
@@ -214,16 +280,29 @@ namespace AodTrainingInProgress.Controllers
             }
 
             var friendshipLevel = (userActivityInfoJson["friend_ship_level"]?.AsObject()) ?? throw new InvalidOperationException("skill_info not found");
+            int newFriendshipLevel = 0;
             switch (request.ImproveFriendshipLevelRequest.IdolType)
             {
                 case 1:
-                    friendshipLevel["level_1"] = (int) friendshipLevel["level_1"]! + 1;
+                    newFriendshipLevel = (int)friendshipLevel["level_1"]! + 1;
+                    friendshipLevel["level_1"] = newFriendshipLevel;
+                    if (newFriendshipLevel == 1) UnlockOccurrence(userActivityInfoJson, 30101);
+                    else if (newFriendshipLevel == 3) UnlockOccurrence(userActivityInfoJson, 30102);
+                    else if (newFriendshipLevel == 6) UnlockOccurrence(userActivityInfoJson, 30103);
                     break;
                 case 2:
-                    friendshipLevel["level_2"] = (int)friendshipLevel["level_2"]! + 1;
+                    newFriendshipLevel = (int)friendshipLevel["level_2"]! + 1;
+                    friendshipLevel["level_2"] = newFriendshipLevel;
+                    if (newFriendshipLevel == 1) UnlockOccurrence(userActivityInfoJson, 30201);
+                    else if (newFriendshipLevel == 3) UnlockOccurrence(userActivityInfoJson, 30202);
+                    else if (newFriendshipLevel == 6) UnlockOccurrence(userActivityInfoJson, 30203);
                     break;
                 case 3:
-                    friendshipLevel["level_3"] = (int)friendshipLevel["level_3"]! + 1;
+                    newFriendshipLevel = (int)friendshipLevel["level_3"]! + 1;
+                    friendshipLevel["level_3"] = newFriendshipLevel;
+                    if (newFriendshipLevel == 1) UnlockOccurrence(userActivityInfoJson, 30301);
+                    else if (newFriendshipLevel == 3) UnlockOccurrence(userActivityInfoJson, 30302);
+                    else if (newFriendshipLevel == 6) UnlockOccurrence(userActivityInfoJson, 30303);
                     break;
                 default:
                     _logger.LogWarning("Unexpected IdolType: {IdolType}", request.ImproveFriendshipLevelRequest.IdolType);
@@ -239,6 +318,19 @@ namespace AodTrainingInProgress.Controllers
                 { "message", "OK" },
                 { "data", userActivityInfoJson },
             });
+        }
+
+        protected void UnlockOccurrence(JsonNode userActivityInfoJson, int occurrenceId)
+        {
+            var occurrences = (userActivityInfoJson["occurrence_info"]?["occurrences"]?.AsArray()) ?? throw new InvalidOperationException("occurrences not found");
+            foreach (var node in occurrences)
+            {
+                if ((int) node?["occurrence_id"]! == occurrenceId)
+                {
+                    node!["status"] = _inprogressStatus;
+                    break;
+                }
+            }
         }
     }
 }
