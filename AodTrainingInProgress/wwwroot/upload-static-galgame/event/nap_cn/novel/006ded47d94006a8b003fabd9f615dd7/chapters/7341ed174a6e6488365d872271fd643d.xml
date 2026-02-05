@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data id="577">
+  <scripts>
+    <scene id="1" title="开场">
+      <simple_dialog pos="right" chara="qx" img="gal_qx_7" key="gal-line-e200d0d0-d1b7-11f0-a010-3d878ea0a3f9">呼…呼…（吸口水）巨…巨星千夏登场咯~</simple_dialog>
+      <simple_dialog pos="right" chara="ar" img="gal_ar_2" key="gal-line-e200d0d1-d1b7-11f0-a010-3d878ea0a3f9">嘿嘿…居然抽中了豪华特典票，还附赠限定周边，太好了…</simple_dialog>
+      <simple_dialog pos="left" chara="ng" img="gal_ng_1" key="gal-line-e200d0d2-d1b7-11f0-a010-3d878ea0a3f9">什么特典…不对，我怎么睡着了…爱芮醒醒，快松开我的腿，抱太紧脚麻了——</simple_dialog>
+      <simple_dialog pos="right" chara="ar" img="gal_ar_4" key="gal-line-e200d0d3-d1b7-11f0-a010-3d878ea0a3f9">嗯…？啊啊啊啊不好意思南宫，我这就松开…</simple_dialog>
+      <simple_dialog pos="left" chara="ng" img="gal_ng_4" key="gal-line-e200d0d4-d1b7-11f0-a010-3d878ea0a3f9">没事啦~比起这个，我们好像都不小心睡着了…今天的训练还没好好完成呢…</simple_dialog>
+      <simple_dialog pos="right" chara="ar" img="gal_ar_1" key="gal-line-e200d0d5-d1b7-11f0-a010-3d878ea0a3f9">训…训练的话，助教有留言哦——「致小天使们，今日休假，好好放松一下吧」。</simple_dialog>
+      <simple_dialog pos="left" chara="ng" img="gal_ng_3" key="gal-line-e200d0d6-d1b7-11f0-a010-3d878ea0a3f9">哇！助教简直是天使~</simple_dialog>
+      <simple_dialog pos="left" chara="ng" img="gal_ng_1" key="gal-line-e200d0d7-d1b7-11f0-a010-3d878ea0a3f9">对了爱芮，最近你还会有那种…掉帧的感觉吗？</simple_dialog>
+      <simple_dialog pos="right" chara="ar" img="gal_ar_6" key="gal-line-e200d0d8-d1b7-11f0-a010-3d878ea0a3f9">嗯？没有了哦，最近爱芮状态绝佳！</simple_dialog>
+      <simple_dialog pos="left" chara="ng" img="gal_ng_4" key="gal-line-e200d0d9-d1b7-11f0-a010-3d878ea0a3f9">那就好。嗯…接下来，只剩最后一步要做了——我点~</simple_dialog>
+      <simple_dialog pos="right" chara="ar" img="gal_ar_3" key="gal-line-e200d0da-d1b7-11f0-a010-3d878ea0a3f9">…诶？奇怪，刚刚又有一瞬间…</simple_dialog>
+      <simple_dialog pos="left" chara="ng" img="gal_ng_3" key="gal-line-e200d0db-d1b7-11f0-a010-3d878ea0a3f9">是我断开了热点连接啦，之前一直把这件事儿忘了，诶嘿~</simple_dialog>
+      <simple_dialog pos="right" chara="qx" img="gal_qx_7" key="gal-line-e200d0dc-d1b7-11f0-a010-3d878ea0a3f9">后…后边的观众，把你们的双手借…借给我，嘿嘿…</simple_dialog>
+      <simple_dialog pos="left" chara="ng" img="gal_ng_3" key="gal-line-e200d0dd-d1b7-11f0-a010-3d878ea0a3f9">好嘞，这就来，「巨星」千夏大人~</simple_dialog>
+      <simple_dialog pos="right" chara="qx" img="gal_qx_1" key="gal-line-e200d0de-d1b7-11f0-a010-3d878ea0a3f9">哇唔唔唔唔！肿么回素…南、南宫？！</simple_dialog>
+      <simple_dialog pos="left" chara="ng" img="gal_ng_6" key="gal-line-e200d0df-d1b7-11f0-a010-3d878ea0a3f9">这是你刚刚借用的「双手」哦，请享用~</simple_dialog>
+      <simple_dialog pos="right" chara="qx" img="gal_qx_1" key="gal-line-e200d0e0-d1b7-11f0-a010-3d878ea0a3f9">好了好了——我醒了啦！不要搓我的脸惹…哇唔唔唔…</simple_dialog>
+    </scene>
+    <scene id="2" title="助教">
+      <simple_dialog pos="left" chara="ling" img="gal_ling" key="gal-line-e200d0e1-d1b7-11f0-a010-3d878ea0a3f9">哥哥，我们对训练系统的调整，真的有效吗？感觉大家的压力反而更大了…</simple_dialog>
+      <simple_dialog pos="right" chara="zhe" img="gal_zhe" key="gal-line-e200d0e2-d1b7-11f0-a010-3d878ea0a3f9">嗯，我也有点怀疑，毕竟之前连线时，大家累得都睡着了…</simple_dialog>
+      <simple_dialog pos="left" chara="ling" img="gal_ling" key="gal-line-e200d0e3-d1b7-11f0-a010-3d878ea0a3f9">莫非…是Fairy又重新安排了日程？——Fairy！咦，Fairy好像不在…</simple_dialog>
+      <simple_dialog pos="right" chara="zhe" img="gal_zhe" key="gal-line-e200d0e4-d1b7-11f0-a010-3d878ea0a3f9">那先开始今天的训练吧。结束后，我们再问问她。</simple_dialog>
+      <simple_dialog pos="left" chara="ling" img="gal_ling" key="gal-line-e200d0e5-d1b7-11f0-a010-3d878ea0a3f9">嗯~今天的训练课程，对现在的「妄想天使」来说再合适不过了！我记得协助人是…</simple_dialog>
+      <simple_dialog chara="-2" key="gal-line-d4c6f920-ebd0-11f0-bd98-ff181a3e7afb">[em bold] [/em]</simple_dialog>
+      <simple_dialog pos="left" chara="pp" img="gal_pp" key="gal-line-e200d0e6-d1b7-11f0-a010-3d878ea0a3f9">哎呀呀，现在的年轻人，一个个都想法特别多，还得过来人指导指导呀。</simple_dialog>
+      <simple_dialog pos="right" chara="ng" img="gal_ng_3" key="gal-line-e200d0e7-d1b7-11f0-a010-3d878ea0a3f9">咕，咕，哈…是啊，就像千夏的小心思，最近也变得越来越多了——来，再来一杯！唔，咕…</simple_dialog>
+      <simple_dialog pos="left" chara="pp" img="gal_pp" key="gal-line-e200d0e8-d1b7-11f0-a010-3d878ea0a3f9">哦~这个年轻人喝法相当豪爽嘛——你喝的是什么口味的燃油饮？</simple_dialog>
+      <simple_dialog pos="right" chara="ng" img="gal_ng_7" key="gal-line-e200d0e9-d1b7-11f0-a010-3d878ea0a3f9">当然是——百分百鲜榨果汁！</simple_dialog>
+      <simple_dialog pos="left" chara="burnice" img="gal_burnice" key="gal-line-e200d0ea-d1b7-11f0-a010-3d878ea0a3f9">哈哈哈哈哈哈哈！——哇，原来，舞台幕后这么有意思呀！</simple_dialog>
+      <simple_dialog pos="right" chara="qx" img="gal_qx_3" key="gal-line-e200d0eb-d1b7-11f0-a010-3d878ea0a3f9">有、有意思吗…呃，不过比起台上，确实好一些…</simple_dialog>
+      <simple_dialog pos="right" chara="qx" img="gal_qx_3" key="gal-line-e200d0ec-d1b7-11f0-a010-3d878ea0a3f9">我还是喜欢在台下写歌…虽然演出时也有开心的事，但演出什么的还是太难了！</simple_dialog>
+      <simple_dialog pos="right" chara="qx" img="gal_qx_5" key="gal-line-e200d0ed-d1b7-11f0-a010-3d878ea0a3f9">我还记得第一次上台时…第一个动作就被我跳错了，呜呜呜呜呜…</simple_dialog>
+      <simple_dialog pos="left" chara="burnice" img="gal_burnice" key="gal-line-e200d0ee-d1b7-11f0-a010-3d878ea0a3f9">哇，好厉害好厉害！——那岂不是说，千夏在舞台上的第一步，就成为焦点了！？</simple_dialog>
+      <simple_dialog pos="right" chara="qx" img="gal_qx_1" key="gal-line-e200d0ef-d1b7-11f0-a010-3d878ea0a3f9">什什什么——我、我才不要成为这种焦点啊！！！</simple_dialog>
+      <simple_dialog pos="left" chara="ling" img="gal_ling" key="gal-line-e200d0f0-d1b7-11f0-a010-3d878ea0a3f9">哥哥，那个…是我打开连线的方式不对吗？</simple_dialog>
+      <simple_dialog pos="right" chara="zhe" img="gal_zhe" key="gal-line-e200d0f1-d1b7-11f0-a010-3d878ea0a3f9">呵呵，我倒觉得挺好的，大家现在正需要这样一个放松的机会啊。——诶，你看见爱芮了吗？</simple_dialog>
+      <simple_dialog pos="center" chara="ar" img="gal_ar_4" key="gal-line-e200d0f2-d1b7-11f0-a010-3d878ea0a3f9">……</simple_dialog>
+      <simple_dialog pos="left" chara="ling" img="gal_ling" key="gal-line-e200d0f3-d1b7-11f0-a010-3d878ea0a3f9">嗯…爱芮看上去不太适应这种氛围呢…</simple_dialog>
+      <simple_dialog pos="right" chara="ar" img="gal_ar_1" key="gal-line-e200d0f4-d1b7-11f0-a010-3d878ea0a3f9">啊，助教，你们来啦。</simple_dialog>
+      <simple_dialog pos="right" chara="qx" img="gal_qx_6" key="gal-line-e200d0f5-d1b7-11f0-a010-3d878ea0a3f9">助教！我我们没有偷懒哦，我已经准备好训练了！</simple_dialog>
+      <simple_dialog pos="right" chara="ng" img="gal_ng_3" key="gal-line-e200d0f6-d1b7-11f0-a010-3d878ea0a3f9">助教~今天的训练日程是什么呀？</simple_dialog>
+      <simple_dialog pos="left" chara="ling" img="gal_ling" key="gal-line-e200d0f7-d1b7-11f0-a010-3d878ea0a3f9">哎呀，千夏不要紧张嘛，今天的训练日程就是——放肆休息吧！嘿嘿，大家好好调整一下训练状态~</simple_dialog>
+      <simple_dialog pos="right" chara="qx" img="gal_qx_7" key="gal-line-e200d0f8-d1b7-11f0-a010-3d878ea0a3f9">诶，真的吗？今天不用训练吗？助教万岁！！</simple_dialog>
+      <simple_dialog pos="right" chara="ng" img="gal_ng_1" key="gal-line-e200d0f9-d1b7-11f0-a010-3d878ea0a3f9">嗯哼~原来千夏这么不想一起和我们训练吗，好难过哦…</simple_dialog>
+      <simple_dialog pos="right" chara="qx" img="gal_qx_2" key="gal-line-e200d0fa-d1b7-11f0-a010-3d878ea0a3f9">不不不是！我才没有！能和你们俩一起训练，我很开心的…</simple_dialog>
+      <simple_dialog pos="left" chara="zhe" img="gal_zhe" key="gal-line-e200d0fb-d1b7-11f0-a010-3d878ea0a3f9">好了好了，这种时候南宫就别欺负千夏了。</simple_dialog>
+      <simple_dialog pos="center" chara="burnice" img="gal_burnice" key="gal-line-e200d0fc-d1b7-11f0-a010-3d878ea0a3f9">唔，对了！在这个开心的时刻，就应该——可以开一场线上燃油饮派对！</simple_dialog>
+      <simple_dialog pos="right" chara="ling" img="gal_ling" key="gal-line-e200d0fd-d1b7-11f0-a010-3d878ea0a3f9">等等等等，不可以！！</simple_dialog>
+      <simple_dialog chara="-2" key="gal-line-3aae2970-ebd1-11f0-bd98-ff181a3e7afb">[em bold] [/em]</simple_dialog>
+      <simple_dialog pos="left" chara="zhe" img="gal_zhe" key="gal-line-e200d0fe-d1b7-11f0-a010-3d878ea0a3f9">不愧是柏妮思和派派啊，她们俩还是…呃，太懂生活了…</simple_dialog>
+      <simple_dialog pos="right" chara="ling" img="gal_ling" key="gal-line-e200d0ff-d1b7-11f0-a010-3d878ea0a3f9">嗯！Fairy找到的协助人，以及安排的训练日程都恰到好处呢——做得很好哦，Fairy！</simple_dialog>
+      <simple_dialog pos="left" chara="zhe" img="gal_zhe" key="gal-line-e200d100-d1b7-11f0-a010-3d878ea0a3f9">Fairy？嗯…被铃夸了还没有反应，奇怪…</simple_dialog>
+      <simple_dialog pos="right" chara="ling" img="gal_ling" key="gal-line-e200d101-d1b7-11f0-a010-3d878ea0a3f9">等等，哥哥…好像有些不对劲，HDD上多了几条信号发送记录…</simple_dialog>
+    </scene>
+    <scene id="3" title="结尾">
+      <simple_dialog pos="right" chara="qx" img="gal_qx_3" key="gal-line-e200d102-d1b7-11f0-a010-3d878ea0a3f9">终…终终于！终于结束了！</simple_dialog>
+      <simple_dialog pos="right" chara="ar" img="gal_ar_3" key="gal-line-e200d103-d1b7-11f0-a010-3d878ea0a3f9">是呀，今天就是最后一次训练了。不知道会有怎样的最终测试呢…好紧张。</simple_dialog>
+      <simple_dialog pos="left" chara="ng" img="gal_ng_4" key="gal-line-e200d104-d1b7-11f0-a010-3d878ea0a3f9">…关于最终测试，我有些话要说，而且和爱芮有关。</simple_dialog>
+      <simple_dialog pos="right" chara="ar" img="gal_ar_1" key="gal-line-e200d105-d1b7-11f0-a010-3d878ea0a3f9">诶，和我有关？</simple_dialog>
+      <simple_dialog pos="left" chara="ng" img="gal_ng_4" key="gal-line-e200d106-d1b7-11f0-a010-3d878ea0a3f9">嗯。——回想一下，爱芮，为什么你会在训练时出现莫名的掉帧情况？</simple_dialog>
+      <simple_dialog pos="left" chara="ng" img="gal_ng_4" key="gal-line-e200d107-d1b7-11f0-a010-3d878ea0a3f9">而且，为什么每次爱芮掉帧后，我们的训练难度都会出现微妙的变化？</simple_dialog>
+      <simple_dialog pos="left" chara="ng" img="gal_ng_4" key="gal-line-e200d108-d1b7-11f0-a010-3d878ea0a3f9">还有一个奇怪的现象：在我连接爱芮之后，这种不明缘由的掉帧就消失了…</simple_dialog>
+      <simple_dialog pos="left" chara="ng" img="gal_ng_7" key="gal-line-e200f7e0-d1b7-11f0-a010-3d878ea0a3f9">根据我的调查，真相只有一个——爱芮，你就是整个训练系统的中心！</simple_dialog>
+      <simple_dialog pos="right" chara="ar" img="gal_ar_3" key="gal-line-e200f7e1-d1b7-11f0-a010-3d878ea0a3f9">诶？！</simple_dialog>
+      <simple_dialog pos="right" chara="qx" img="gal_qx_3" key="gal-line-e200f7e2-d1b7-11f0-a010-3d878ea0a3f9">爱芮是…整个训练系统的中心？！</simple_dialog>
+      <simple_dialog pos="left" chara="ng" img="gal_ng_4" key="gal-line-e200f7e3-d1b7-11f0-a010-3d878ea0a3f9">我也很惊讶…不知为何，训练系统似乎是基于爱芮的本地处理器建立起来的。</simple_dialog>
+      <simple_dialog pos="left" chara="ng" img="gal_ng_4" key="gal-line-e200f7e4-d1b7-11f0-a010-3d878ea0a3f9">系统中所发生的任何调整，都会被直接传递到爱芮那里…</simple_dialog>
+      <simple_dialog pos="left" chara="ng" img="gal_ng_4" key="gal-line-e200f7e5-d1b7-11f0-a010-3d878ea0a3f9">而训练系统的更改，会让爱芮的认知与实际情况发生轻微脱节，导致训练中奇怪的反应…比如走神和掉帧…</simple_dialog>
+      <simple_dialog pos="right" chara="ar" img="gal_ar_1" key="gal-line-e200f7e6-d1b7-11f0-a010-3d878ea0a3f9">原来是这样…然后，脱节会产生延迟。而南宫连接我的时候，直接断开了我的本地处理，所以会恢复正常…</simple_dialog>
+      <simple_dialog pos="right" chara="qx" img="gal_qx_4" key="gal-line-e200f7e7-d1b7-11f0-a010-3d878ea0a3f9">可可是…系统的调整，应该都在训练的计划中才对？</simple_dialog>
+      <simple_dialog pos="left" chara="ng" img="gal_ng_4" key="gal-line-e200f7e8-d1b7-11f0-a010-3d878ea0a3f9">嗯，似乎有一位神秘的幕后人，始终动态调整着训练安排…</simple_dialog>
+      <simple_dialog pos="left" chara="ng" img="gal_ng_3" key="gal-line-e200f7e9-d1b7-11f0-a010-3d878ea0a3f9">但问题是——貌似有人做出了计划外的调整啊~你说呢，千夏同学？</simple_dialog>
+      <simple_dialog pos="right" chara="qx" img="gal_qx_5" key="gal-line-e200f7ea-d1b7-11f0-a010-3d878ea0a3f9">什什什么——</simple_dialog>
+      <simple_dialog pos="left" chara="ng" img="gal_ng_7" key="gal-line-e200f7eb-d1b7-11f0-a010-3d878ea0a3f9">眼神开始闪躲了呢…不过，不只是你。根据我的调查，老师和助教们也都调整过训练系统的权重。</simple_dialog>
+      <simple_dialog pos="right" chara="ar" img="gal_ar_4" key="gal-line-e200f7ec-d1b7-11f0-a010-3d878ea0a3f9">也就是说…这几项计划外的调整叠加在一起，导致现在的系统…有点不太对劲？</simple_dialog>
+      <simple_dialog pos="left" chara="ng" img="gal_ng_4" key="gal-line-e200f7ed-d1b7-11f0-a010-3d878ea0a3f9">嗯，继续这样下去…恐怕我们将要面对一个非——常恐怖的最终测试哦~</simple_dialog>
+      <simple_dialog pos="right" chara="qx" img="gal_qx_3" key="gal-line-e200f7ee-d1b7-11f0-a010-3d878ea0a3f9">那那那那怎么办啊！我不是故意的…</simple_dialog>
+      <simple_dialog pos="left" chara="ng" img="gal_ng_6" key="gal-line-e200f7ef-d1b7-11f0-a010-3d878ea0a3f9">不过不要着急，无敌的南宫大人早就想好解决办法啦~</simple_dialog>
+      <simple_dialog pos="left" chara="ng" img="gal_ng_1" key="gal-line-e200f7f0-d1b7-11f0-a010-3d878ea0a3f9">在之前的调查中，通过连接爱芮，我已经找到了系统的端口。只要将它一键还原，就能恢复正常啦！</simple_dialog>
+      <simple_dialog pos="right" chara="qx" img="gal_qx_6" key="gal-line-e200f7f1-d1b7-11f0-a010-3d878ea0a3f9">原…原来是这样！不愧是南宫！</simple_dialog>
+      <simple_dialog pos="left" chara="ng" img="gal_ng_3" key="gal-line-e200f7f2-d1b7-11f0-a010-3d878ea0a3f9">哼哼，再夸夸我也是可以的哦~那么，要来了哦，一键还原！我按——</simple_dialog>
+      <simple_dialog pos="center" chara="zhe" img="gal_zhe" key="gal-line-e200f7f3-d1b7-11f0-a010-3d878ea0a3f9">不行！等等南宫，千万不要按下去！</simple_dialog>
+      <simple_dialog pos="center" key="gal-line-e200f7f4-d1b7-11f0-a010-3d878ea0a3f9">指令确认，因致命系统错误，10秒后系统将陷入崩溃。10…9…</simple_dialog>
+      <simple_dialog pos="left" chara="ng" img="gal_ng_3" key="gal-line-e200f7f5-d1b7-11f0-a010-3d878ea0a3f9">啊这…好像有点搞砸了…</simple_dialog>
+      <simple_dialog pos="right" chara="qx" img="gal_qx_1" key="gal-line-e200f7f6-d1b7-11f0-a010-3d878ea0a3f9">你你你快想想办法呀！！</simple_dialog>
+      <simple_dialog pos="right" key="gal-line-e200f7f7-d1b7-11f0-a010-3d878ea0a3f9" img="gal_fairy" chara="fairy">请安心。您优秀可靠的智能管家，总会在关键时刻登场。</simple_dialog>
+      <simple_dialog pos="left" chara="ling" img="gal_ling" key="gal-line-e200f7f8-d1b7-11f0-a010-3d878ea0a3f9">F…我的智能管家，你之前到哪里去了！</simple_dialog>
+      <simple_dialog pos="left" chara="zhe" img="gal_zhe" key="gal-line-e200f7f9-d1b7-11f0-a010-3d878ea0a3f9">我猜得没错的话…在幕后动态调整训练计划的，就是这位…可靠的智能管家吧。</simple_dialog>
+      <simple_dialog pos="left" chara="zhe" img="gal_zhe" key="gal-line-e200f7fa-d1b7-11f0-a010-3d878ea0a3f9">不仅如此…她还在同时处理我们的「计划外」调整，因此能够瞬间解决现在的状况，对吧？</simple_dialog>
+      <simple_dialog pos="right" key="gal-line-e200f7fb-d1b7-11f0-a010-3d878ea0a3f9" img="gal_fairy" chara="fairy">肯定。您终于理解了我背后的努力，提议将每月电费阈值提高至当前的200%。</simple_dialog>
+      <simple_dialog pos="left" chara="ling" img="gal_ling" key="gal-line-e200f7fc-d1b7-11f0-a010-3d878ea0a3f9">好啦好啦，辛苦啦~问题最后解决了就好。</simple_dialog>
+      <simple_dialog pos="right" key="gal-line-e200f7fd-d1b7-11f0-a010-3d878ea0a3f9" img="gal_fairy" chara="fairy">提示。虽然系统已免于崩溃，但已做出的更改是不可逆的…</simple_dialog>
+      <simple_dialog pos="left" chara="ng" img="gal_ng_4" key="gal-line-e200f7fe-d1b7-11f0-a010-3d878ea0a3f9">更改是不可逆的…等等，那也就是说！</simple_dialog>
+      <simple_dialog pos="center" key="gal-line-e200f7ff-d1b7-11f0-a010-3d878ea0a3f9">最终测试，已输入完毕…</simple_dialog>
+      <simple_dialog pos="right" key="gal-line-e200f800-d1b7-11f0-a010-3d878ea0a3f9" img="gal_fairy" chara="fairy">肯定。各位将面对的，是完全「计划外」的最终测试。</simple_dialog>
+    </scene>
+  </scripts>
+</data>

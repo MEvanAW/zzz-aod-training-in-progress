@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data id="571">
+  <scripts>
+    <scene id="1" title="训练事件1">
+      <simple_dialog pos="left" chara="anby" img="gal_anby" key="gal-line-4aa8d030-c5c2-11f0-af61-9184941efb97">绳匠，完成这次的「训练助理」任务后，真的会请我吃汉堡吗？</simple_dialog>
+      <simple_dialog pos="right" chara="zhe" img="gal_zhe" key="gal-line-4aa8d031-c5c2-11f0-af61-9184941efb97">汉堡…啊没错，肯定会的。放心吧安比，只要你能帮助我们圆满完成「助教」的工作…</simple_dialog>
+      <simple_dialog pos="left" chara="ling" img="gal_ling" key="gal-line-4aa8d032-c5c2-11f0-af61-9184941efb97">不过，总觉得安比还没有完全搞清楚「偶像」的意思…</simple_dialog>
+      <simple_dialog pos="right" chara="zhe" img="gal_zhe" key="gal-line-4aa8d033-c5c2-11f0-af61-9184941efb97">确实…但没关系，应该不会影响工作内容…吧…</simple_dialog>
+      <simple_dialog pos="left" chara="ling" img="gal_ling" key="gal-line-4aa8d034-c5c2-11f0-af61-9184941efb97">诶哥哥，先等等，爱芮看上去好像…还没进入状态？</simple_dialog>
+      <simple_dialog pos="right" chara="ar" img="gal_ar_3" key="gal-line-4aa8d035-c5c2-11f0-af61-9184941efb97">……</simple_dialog>
+      <simple_dialog pos="left" chara="ling" img="gal_ling" key="gal-line-4aa8f740-c5c2-11f0-af61-9184941efb97">爱——芮——！</simple_dialog>
+      <simple_dialog pos="right" chara="ar" img="gal_ar_4" key="gal-line-4aa8f741-c5c2-11f0-af61-9184941efb97">啊…是助教！对不起对不起，刚刚好像有点掉帧了…</simple_dialog>
+      <simple_dialog pos="left" chara="anby" img="gal_anby" key="gal-line-4aa8f742-c5c2-11f0-af61-9184941efb97">在「偶像活动」中，要注意时刻保持警觉…不然的话，会让自己和同伴陷入危险。</simple_dialog>
+      <simple_dialog pos="left" chara="ling" img="gal_ling" key="gal-line-4aa8f743-c5c2-11f0-af61-9184941efb97">你果然没搞懂偶像是什么啦！不过，也许偶尔这么说也没错…</simple_dialog>
+      <simple_dialog pos="left" chara="zhe" img="gal_zhe" key="gal-line-4aa8f744-c5c2-11f0-af61-9184941efb97">你是想起了嘉音那次的事件吧，确实挺危险的，哈哈…</simple_dialog>
+      <simple_dialog pos="right" chara="ar" img="gal_ar_1" key="gal-line-4aa8f745-c5c2-11f0-af61-9184941efb97">虽然搞不清楚你们在说什么…但是应该在说关于战斗的事情吧！那、那我还是懂一点的！</simple_dialog>
+      <simple_dialog pos="left" chara="ling" img="gal_ling" key="gal-line-4aa8f746-c5c2-11f0-af61-9184941efb97">战斗…？等等，爱芮不是偶像吗？难道你们还需要执行什么秘密任务？</simple_dialog>
+      <simple_dialog pos="right" chara="ar" img="gal_ar_4" key="gal-line-4aa8f747-c5c2-11f0-af61-9184941efb97">没有啦…我们事务所经常入不敷出，所以需要我们进空洞补贴家用…</simple_dialog>
+      <simple_dialog pos="right" chara="ar" img="gal_ar_6" key="gal-line-4aa8f748-c5c2-11f0-af61-9184941efb97">久而久之，也掌握了一些和以骸战斗的技巧…仅此而已哦！</simple_dialog>
+      <simple_dialog pos="right" chara="ar" img="gal_ar_3" key="gal-line-4aa8f749-c5c2-11f0-af61-9184941efb97">如果这些被「妄想天使」的粉丝知道，也许会为我们而担心的…</simple_dialog>
+      <simple_dialog pos="right" chara="ar" img="gal_ar_3" key="gal-line-4aa8f74a-c5c2-11f0-af61-9184941efb97">不，不止如此…也许当他们了解到「偶像」背后的更多真实，就会…</simple_dialog>
+      <simple_dialog pos="left" chara="anby" img="gal_anby" key="gal-line-4aa8f74b-c5c2-11f0-af61-9184941efb97">爱芮知道汉堡吗？</simple_dialog>
+      <simple_dialog pos="right" chara="ar" img="gal_ar_1" key="gal-line-4aa8f74c-c5c2-11f0-af61-9184941efb97">汉堡…？我、我知道的！</simple_dialog>
+      <simple_dialog pos="left" chara="anby" img="gal_anby" key="gal-line-4aa8f74d-c5c2-11f0-af61-9184941efb97">无论面包之下隐藏的是黄芥末酱还是番茄酱，都无法改变汉堡很美味的事实。</simple_dialog>
+      <simple_dialog pos="left" chara="ling" img="gal_ling" key="gal-line-4aa8f74e-c5c2-11f0-af61-9184941efb97">看来…这是在用汉堡作比喻呢！</simple_dialog>
+      <simple_dialog pos="left" chara="anby" img="gal_anby" key="gal-line-4aa8f74f-c5c2-11f0-af61-9184941efb97">嗯。无论是表面还是内里，都是真实自己的一部分…这是重要的伙伴们教会我的，我也教给你。</simple_dialog>
+      <simple_dialog pos="left" chara="zhe" img="gal_zhe" key="gal-line-4aa8f750-c5c2-11f0-af61-9184941efb97">嗯，而且爱芮作为「偶像」想为大家带来希望与快乐的心，一定是无比真实的。</simple_dialog>
+      <simple_dialog pos="left" chara="ling" img="gal_ling" key="gal-line-4aa8f751-c5c2-11f0-af61-9184941efb97">鼓掌鼓掌！不愧是最佳「训练助理」！</simple_dialog>
+      <simple_dialog pos="right" chara="ar" img="gal_ar_2" key="gal-line-4aa8f752-c5c2-11f0-af61-9184941efb97">真实…吗？嗯，我好像明白了些什么…谢谢我的助教们！</simple_dialog>
+      <simple_dialog pos="left" chara="zhe" img="gal_zhe" key="gal-line-4aa8f753-c5c2-11f0-af61-9184941efb97">我们只是做了助教该做的事情。说起来，爱芮在台上和台下给人的感觉确实有点不一样呢…</simple_dialog>
+      <simple_dialog pos="left" chara="ling" img="gal_ling" key="gal-line-4aa8f754-c5c2-11f0-af61-9184941efb97">嗯嗯！在台上活力四射，在台下…好像有点害羞的样子！</simple_dialog>
+      <simple_dialog pos="right" chara="ar" img="gal_ar_1" key="gal-line-4aa8f755-c5c2-11f0-af61-9184941efb97">诶？有、有吗…可能因为站在舞台上的那一刻，我就把一切全都丢到脑后了吧…</simple_dialog>
+      <simple_dialog pos="right" chara="ar" img="gal_ar_6" key="gal-line-4aa8f756-c5c2-11f0-af61-9184941efb97">像这样——♪爱芮一点也不紧张，心里只有满满的观众♪</simple_dialog>
+      <simple_dialog pos="left" chara="ng" img="gal_ng_1" key="gal-line-4aa8f757-c5c2-11f0-af61-9184941efb97">啊…</simple_dialog>
+      <simple_dialog pos="left" chara="qx" img="gal_qx_2" key="gal-line-4aa8f758-c5c2-11f0-af61-9184941efb97">啊…</simple_dialog>
+      <simple_dialog pos="left" chara="rp" key="gal-line-4aa8f759-c5c2-11f0-af61-9184941efb97">啊…</simple_dialog>
+      <simple_dialog pos="right" chara="ar" img="gal_ar_3" key="gal-line-4aa8f75a-c5c2-11f0-af61-9184941efb97">诶！？我怎么不自觉唱出来了…还有南宫和千夏，你们怎么突然…</simple_dialog>
+      <simple_dialog pos="left" chara="ng" img="gal_ng_3" key="gal-line-4aa8f75b-c5c2-11f0-af61-9184941efb97">♪爱芮一点也不紧张，心里只有满满的观众♪</simple_dialog>
+      <simple_dialog pos="right" chara="ar" img="gal_ar_5" key="gal-line-4aa8f75c-c5c2-11f0-af61-9184941efb97">不不不不不不要唱啦！</simple_dialog>
+    </scene>
+    <scene id="2" title="训练事件2">
+      <simple_dialog pos="right" chara="ar" img="gal_ar_6" key="gal-line-06daa460-c5da-11f0-af61-9184941efb97">♪啦啦啦啦啦~♪</simple_dialog>
+      <simple_dialog pos="left" chara="ling" img="gal_ling" key="gal-line-06daa461-c5da-11f0-af61-9184941efb97">哇！真是太好听了，爱芮！</simple_dialog>
+      <simple_dialog pos="left" chara="qx" img="gal_qx_2" key="gal-line-06daa462-c5da-11f0-af61-9184941efb97">我的歌能被你唱出来，真是太幸福了，爱芮！</simple_dialog>
+      <simple_dialog pos="right" chara="ar" img="gal_ar_4" key="gal-line-06daa463-c5da-11f0-af61-9184941efb97">谢谢大家，不过…</simple_dialog>
+      <simple_dialog pos="left" chara="zhe" img="gal_zhe" key="gal-line-06daa464-c5da-11f0-af61-9184941efb97">嗯？看爱芮的表情，她好像有点不是很满意的样子…</simple_dialog>
+      <simple_dialog pos="left" chara="ng" img="gal_ng_1" key="gal-line-06daa465-c5da-11f0-af61-9184941efb97">经常发生这样的事情啦~爱芮对自己的歌声可是很严格的。</simple_dialog>
+      <simple_dialog pos="left" chara="ling" img="gal_ling" key="gal-line-06daa466-c5da-11f0-af61-9184941efb97">但在我们这些素人眼里，她已经唱得很好啦！完全听不出有什么问题嘛…</simple_dialog>
+      <simple_dialog pos="left" chara="ng" img="gal_ng_1" key="gal-line-06daa467-c5da-11f0-af61-9184941efb97">在专业人士的眼里，她也唱得非常棒哦！</simple_dialog>
+      <simple_dialog pos="left" chara="ng" img="gal_ng_3" key="gal-line-06dacb70-c5da-11f0-af61-9184941efb97">不过…爱芮对于音乐，有一套自己的标准，她在找出那个完美解之前可是不会罢休的哦~</simple_dialog>
+      <simple_dialog pos="right" chara="ar" img="gal_ar_4" key="gal-line-06dacb71-c5da-11f0-af61-9184941efb97">不、不好意思，大家还能再陪我来一次吗？</simple_dialog>
+      <simple_dialog pos="left" chara="qx" img="gal_qx_6" key="gal-line-06dacb72-c5da-11f0-af61-9184941efb97">当然没问题！我出错的时候，爱芮不也一遍遍陪我练习舞步嘛？</simple_dialog>
+      <simple_dialog pos="right" chara="ar" img="gal_ar_1" key="gal-line-06dacb73-c5da-11f0-af61-9184941efb97">嗯…！谢谢大家！</simple_dialog>
+      <simple_dialog pos="right" chara="ar" img="gal_ar_1" key="gal-line-06dacb74-c5da-11f0-af61-9184941efb97">♪啦啦啦啦啦~♪</simple_dialog>
+      <simple_dialog pos="left" chara="ling" img="gal_ling" key="gal-line-06dacb75-c5da-11f0-af61-9184941efb97">虽然已经听过一遍了，但还是好想感叹…爱芮的声音像被天使吻过一样！</simple_dialog>
+      <simple_dialog pos="right" chara="ar" img="gal_ar_3" key="gal-line-06dacb76-c5da-11f0-af61-9184941efb97">……</simple_dialog>
+      <simple_dialog pos="left" chara="zhe" img="gal_zhe" key="gal-line-06dacb77-c5da-11f0-af61-9184941efb97">但是看爱芮的表情，她好像还是有点不满意…</simple_dialog>
+      <simple_dialog pos="right" chara="ar" img="gal_ar_3" key="gal-line-06dacb78-c5da-11f0-af61-9184941efb97">对、对不起！可能在助教眼里，我的歌声已经很好听了吧…</simple_dialog>
+      <simple_dialog pos="right" chara="ar" img="gal_ar_3" key="gal-line-06dacb79-c5da-11f0-af61-9184941efb97">但我自己能感受到，在我演绎这首歌的时候，有一个错误的处理…</simple_dialog>
+      <simple_dialog pos="right" chara="ar" img="gal_ar_5" key="gal-line-06dacb7a-c5da-11f0-af61-9184941efb97">这个小小的瑕疵乍听之下会被忽略，但会破坏整首歌的和谐…</simple_dialog>
+      <simple_dialog pos="right" chara="ar" img="gal_ar_3" key="gal-line-06dacb7b-c5da-11f0-af61-9184941efb97">可以再让我自己想一想吗？…拜托了！大家请先继续别的训练吧。</simple_dialog>
+      <simple_dialog pos="left" chara="zhe" img="gal_zhe" key="gal-line-06dacb7c-c5da-11f0-af61-9184941efb97">好吧，爱芮，那你先琢磨琢磨，我们去看一下舞蹈的部分。</simple_dialog>
+      <simple_dialog pos="right" chara="ng" img="gal_ng_1" key="gal-line-06dacb7d-c5da-11f0-af61-9184941efb97">…谢谢助教，能够给爱芮调整自己的机会。</simple_dialog>
+      <simple_dialog pos="left" chara="ling" img="gal_ling" key="gal-line-06dacb7e-c5da-11f0-af61-9184941efb97">但是…爱芮会不会对自己有点太严格了？大部分人可能都听不出来那个瑕疵诶…</simple_dialog>
+      <simple_dialog pos="right" chara="ng" img="gal_ng_1" key="gal-line-06dacb7f-c5da-11f0-af61-9184941efb97">不，对爱芮来说，这个瑕疵是必须消灭的东西吧。</simple_dialog>
+      <simple_dialog pos="right" chara="ng" img="gal_ng_1" key="gal-line-06dacb80-c5da-11f0-af61-9184941efb97">她是我们之中…最珍惜舞台的人。</simple_dialog>
+      <simple_dialog pos="right" chara="ng" img="gal_ng_1" key="gal-line-06dacb81-c5da-11f0-af61-9184941efb97">能够为别人唱歌这件事情，想必对她来说，比其他一切都要重要吧。</simple_dialog>
+      <simple_dialog pos="right" chara="qx" img="gal_qx_6" key="gal-line-06dacb82-c5da-11f0-af61-9184941efb97">嗯！爱芮有自己的坚持，我们作为队友，应该无条件支持她！</simple_dialog>
+      <simple_dialog pos="right" chara="qx" img="gal_qx_7" key="gal-line-06dacb83-c5da-11f0-af61-9184941efb97">而且她做的这一切，都是为了呈现更好的舞台哦！</simple_dialog>
+      <simple_dialog pos="left" chara="zhe" img="gal_zhe" key="gal-line-06dacb84-c5da-11f0-af61-9184941efb97">呵呵，看来我们作为助教，还有很多需要考虑的事情呢…</simple_dialog>
+      <simple_dialog pos="right" chara="ar" img="gal_ar_2" key="gal-line-06dacb85-c5da-11f0-af61-9184941efb97">我明白了，在这段高音之前加一个转音，就可以解决这种不和谐的感受！</simple_dialog>
+      <simple_dialog pos="left" chara="qx" img="gal_qx_6" key="gal-line-06dacb86-c5da-11f0-af61-9184941efb97">诶！爱芮找到解决的办法了吗？</simple_dialog>
+      <simple_dialog pos="right" chara="ar" img="gal_ar_6" key="gal-line-06dacb87-c5da-11f0-af61-9184941efb97">嗯嗯！你们听！——♪啦啦啦啦啦~♪</simple_dialog>
+      <simple_dialog pos="left" chara="ling" img="gal_ling" key="gal-line-06dacb88-c5da-11f0-af61-9184941efb97">哇！虽然是一个小小的改动，但听起来真的不一样了诶！</simple_dialog>
+      <simple_dialog pos="left" chara="ng" img="gal_ng_3" key="gal-line-06dacb89-c5da-11f0-af61-9184941efb97">果然是「完美偶像」小爱芮呢~</simple_dialog>
+      <simple_dialog pos="right" chara="ar" img="gal_ar_4" key="gal-line-06dacb8a-c5da-11f0-af61-9184941efb97">南宫，你总这样说…我也会害羞的！</simple_dialog>
+    </scene>
+    <scene id="3" title="训练事件3">
+      <simple_dialog pos="left" chara="ling" img="gal_ling" key="gal-line-599a6b40-c5da-11f0-af61-9184941efb97">今天的训练活动有点特别，那就是——</simple_dialog>
+      <simple_dialog pos="right" chara="qx" img="gal_qx_6" key="gal-line-599a6b41-c5da-11f0-af61-9184941efb97">那就是——？</simple_dialog>
+      <simple_dialog pos="left" chara="zhe" img="gal_zhe" key="gal-line-599a6b42-c5da-11f0-af61-9184941efb97">嗯，鉴于大家近日练习强度比较大，我们安排了一期读评论活动。</simple_dialog>
+      <simple_dialog pos="right" chara="ar" img="gal_ar_3" key="gal-line-599a6b43-c5da-11f0-af61-9184941efb97">诶！？</simple_dialog>
+      <simple_dialog pos="right" chara="ng" img="gal_ng_6" key="gal-line-599a6b44-c5da-11f0-af61-9184941efb97">嗯哼~读粉丝的评论吗？原来助教安排了这么有意思的活动~</simple_dialog>
+      <simple_dialog pos="left" chara="ling" img="gal_ling" key="gal-line-599a9250-c5da-11f0-af61-9184941efb97">嗯！大家想必对于粉丝眼中的自己是什么样，多多少少都有点了解吧！</simple_dialog>
+      <simple_dialog pos="left" chara="zhe" img="gal_zhe" key="gal-line-599a9251-c5da-11f0-af61-9184941efb97">但是，以集体读评论的方式，想必能够帮助大家更好把握团队的整体风格。</simple_dialog>
+      <simple_dialog pos="left" chara="ling" img="gal_ling" key="gal-line-599a9252-c5da-11f0-af61-9184941efb97">所以，铛铛铛！我们为大家筛选出了一些有针对性的评论！</simple_dialog>
+      <simple_dialog pos="left" key="gal-line-599a9253-c5da-11f0-af61-9184941efb97" img="gal_fairy" chara="fairy">以下为搜索结果。请「妄想天使」的成员逐字朗读。</simple_dialog>
+      <simple_dialog pos="right" chara="qx" img="gal_qx_2" key="gal-line-599a9254-c5da-11f0-af61-9184941efb97">逐逐逐逐字朗读！这真的不是什么惩罚活动吗…</simple_dialog>
+      <simple_dialog pos="right" chara="ng" img="gal_ng_3" key="gal-line-599a9255-c5da-11f0-af61-9184941efb97">那我先来吧~「南宫是一款超可爱的甜酷小恶魔」，哇，即使是我，读这种话也有点害羞呢~</simple_dialog>
+      <simple_dialog pos="right" chara="qx" img="gal_qx_2" key="gal-line-599a9256-c5da-11f0-af61-9184941efb97">可可可怕的南宫，居然以如此平静的语气说出了这句话！</simple_dialog>
+      <simple_dialog pos="right" chara="qx" img="gal_qx_5" key="gal-line-599a9257-c5da-11f0-af61-9184941efb97">这、这个必须得读吗…呜呜，「小哭包千夏快到姐姐怀里来你太萌了」…</simple_dialog>
+      <simple_dialog pos="right" chara="qx" img="gal_qx_2" key="gal-line-599a9258-c5da-11f0-af61-9184941efb97">这这这这这是什么呀！…好、好让人害羞！</simple_dialog>
+      <simple_dialog pos="left" chara="ling" img="gal_ling" key="gal-line-599a9259-c5da-11f0-af61-9184941efb97">那——接下来轮到爱芮了！</simple_dialog>
+      <simple_dialog pos="right" chara="ar" img="gal_ar_1" key="gal-line-599a925a-c5da-11f0-af61-9184941efb97">「好喜欢爱芮的歌声，她声音所到之处就洒满了阳光」…原来有人是这样看我的吗…</simple_dialog>
+      <simple_dialog pos="left" chara="zhe" img="gal_zhe" key="gal-line-599a925b-c5da-11f0-af61-9184941efb97">嗯？怎么感觉Fariy选择的评价，一到爱芮这里就有点画风突变了…</simple_dialog>
+      <simple_dialog pos="left" chara="ling" img="gal_ling" key="gal-line-599a925c-c5da-11f0-af61-9184941efb97">是吗是吗？我看看…「看到爱芮的笑容，就会发自内心笑出来」、「特别元气的完美偶像」…</simple_dialog>
+      <simple_dialog pos="left" chara="zhe" img="gal_zhe" key="gal-line-599a925d-c5da-11f0-af61-9184941efb97">总觉得…</simple_dialog>
+      <simple_dialog pos="left" chara="ling" img="gal_ling" key="gal-line-599a925e-c5da-11f0-af61-9184941efb97">好像夸张的评论一下子变得…有点治愈人心的感觉？</simple_dialog>
+      <simple_dialog pos="right" chara="ng" img="gal_ng_3" key="gal-line-599a925f-c5da-11f0-af61-9184941efb97">嘻嘻~因为爱芮确实在舞台上是如同阳光一样的存在哦~</simple_dialog>
+      <simple_dialog pos="right" chara="ng" img="gal_ng_1" key="gal-line-599a9260-c5da-11f0-af61-9184941efb97">始终充满能量、在台上播撒欢乐，简直是最经典的「王道偶像」 嘛！</simple_dialog>
+      <simple_dialog pos="left" chara="zhe" img="gal_zhe" key="gal-line-599a9261-c5da-11f0-af61-9184941efb97">面对这样的爱芮，粉丝心里可能只有温暖平和的情感吧。</simple_dialog>
+      <simple_dialog pos="right" chara="qx" img="gal_qx_3" key="gal-line-599a9262-c5da-11f0-af61-9184941efb97">和、和我这种上台都会摔倒的人形成了鲜明对比…</simple_dialog>
+      <simple_dialog pos="left" chara="zhe" img="gal_zhe" key="gal-line-599a9263-c5da-11f0-af61-9184941efb97">嗯，我倒是觉得，你们三个人都各有特色，缺少任何一个人，都不再像「妄想天使」了。</simple_dialog>
+      <simple_dialog pos="left" chara="ling" img="gal_ling" key="gal-line-599a9264-c5da-11f0-af61-9184941efb97">对呀！爱芮的始终乐观、千夏的笨拙成长、南宫的大胆调皮…都是「妄想天使」呢！</simple_dialog>
+      <simple_dialog pos="right" chara="ar" img="gal_ar_1" key="gal-line-599a9265-c5da-11f0-af61-9184941efb97">嗯…！谢谢助教，读了这些评论，让我感觉到浑身暖洋洋的…</simple_dialog>
+      <simple_dialog pos="right" chara="ar" img="gal_ar_2" key="gal-line-599a9266-c5da-11f0-af61-9184941efb97">一想到有这么多人喜欢我的歌声，被我的舞台所温暖着…就好开心。</simple_dialog>
+      <simple_dialog pos="left" chara="ling" img="gal_ling" key="gal-line-599a9267-c5da-11f0-af61-9184941efb97">所以台下的爱芮，也应该坚定地相信这份来自粉丝的爱哦！</simple_dialog>
+      <simple_dialog pos="right" chara="ar" img="gal_ar_2" key="gal-line-599a9268-c5da-11f0-af61-9184941efb97">嗯！我、我会尽量自信起来的！</simple_dialog>
+    </scene>
+  </scripts>
+</data>

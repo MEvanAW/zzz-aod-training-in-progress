@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data id="575">
+  <scripts>
+    <scene id="1" title="开场">
+      <simple_dialog pos="left" chara="ng" img="gal_ng_7" key="gal-line-74182e10-c5f0-11f0-af61-9184941efb97">哈…哈…助教，这首曲子很过瘾呢！好久没练习节奏这么快的舞蹈了，跳得好爽！</simple_dialog>
+      <simple_dialog pos="right" chara="ar" img="gal_ar_2" key="gal-line-74182e11-c5f0-11f0-af61-9184941efb97">嗯！长时间的唱跳，也很适合锻炼演唱时的气息把控呢~</simple_dialog>
+      <simple_dialog pos="right" chara="qx" img="gal_qx_3" key="gal-line-74182e12-c5f0-11f0-af61-9184941efb97">终…终于结束了，感觉快…快不行了。</simple_dialog>
+      <simple_dialog pos="left" chara="ng" img="gal_ng_6" key="gal-line-74182e13-c5f0-11f0-af61-9184941efb97">早在热身拉伸的时候，你就快不行了吧~</simple_dialog>
+      <simple_dialog pos="right" chara="qx" img="gal_qx_5" key="gal-line-74182e14-c5f0-11f0-af61-9184941efb97">怎、怎么啦！你你你又要说一些「千夏这种时候就是逊啦」之类的话吧？哼！</simple_dialog>
+      <simple_dialog pos="left" chara="ng" img="gal_ng_3" key="gal-line-74182e15-c5f0-11f0-af61-9184941efb97">千夏这次跳的很棒哦~连我都感到惊喜了呢。</simple_dialog>
+      <simple_dialog pos="right" chara="qx" img="gal_qx_2" key="gal-line-74182e16-c5f0-11f0-af61-9184941efb97">你看吧，我就知…诶？诶？！</simple_dialog>
+      <simple_dialog pos="left" chara="ng" img="gal_ng_1" key="gal-line-74185520-c5f0-11f0-af61-9184941efb97">千夏没发现吗？即使是这种难度很高的「长难曲」，你都从头到尾跟下来了哦~</simple_dialog>
+      <simple_dialog pos="right" chara="qx" img="gal_qx_6" key="gal-line-74185521-c5f0-11f0-af61-9184941efb97">是，是哦！好像是因为脑袋还没反应过来，身体就先动了…</simple_dialog>
+      <simple_dialog pos="left" chara="ng" img="gal_ng_3" key="gal-line-74185522-c5f0-11f0-af61-9184941efb97">就是这样没错，要记住这种感觉哦~</simple_dialog>
+      <simple_dialog pos="left" chara="ling" img="gal_ling" key="gal-line-74185523-c5f0-11f0-af61-9184941efb97">我还刚想抱怨一句，Fairy选的曲子好像有点太难了…</simple_dialog>
+      <simple_dialog pos="left" chara="zhe" img="gal_zhe" key="gal-line-74185524-c5f0-11f0-af61-9184941efb97">现在看来，似乎是恰到好处的难呢。</simple_dialog>
+      <simple_dialog pos="right" key="gal-line-74185525-c5f0-11f0-af61-9184941efb97" img="gal_fairy" chara="fairy">肯定。数据显示，各成员状态已充分恢复，即将开始下一曲训练。</simple_dialog>
+      <simple_dialog pos="left" chara="ng" img="gal_ng_7" key="gal-line-74185526-c5f0-11f0-af61-9184941efb97">哼哼，来吧！前面的不过是热身而已~</simple_dialog>
+      <simple_dialog pos="right" chara="ar" img="gal_ar_6" key="gal-line-74185527-c5f0-11f0-af61-9184941efb97">这次我会唱的更好的~！</simple_dialog>
+      <simple_dialog pos="right" chara="qx" img="gal_qx_3" key="gal-line-74185528-c5f0-11f0-af61-9184941efb97">助…助教是魔鬼吗…</simple_dialog>
+    </scene>
+    <scene id="2" title="助教">
+      <simple_dialog pos="left" chara="ling" img="gal_ling" key="gal-line-74185529-c5f0-11f0-af61-9184941efb97">唔…虽然很想给大家一些具体的指导…</simple_dialog>
+      <simple_dialog pos="right" chara="zhe" img="gal_zhe" key="gal-line-7418552a-c5f0-11f0-af61-9184941efb97">但以我们的舞蹈实力来看…着实有些勉强啊。</simple_dialog>
+      <simple_dialog pos="right" key="gal-line-7418552b-c5f0-11f0-af61-9184941efb97" img="gal_fairy" chara="fairy">主人，不必担心。您最好的人工智能管家Fairy，已为您联系了完美的协助人选。</simple_dialog>
+      <simple_dialog pos="right" key="gal-line-7418552c-c5f0-11f0-af61-9184941efb97" img="gal_fairy" chara="fairy">提示，该协助人是一位兼具灵活性与律动感，性格活泼开朗的智能构造体。</simple_dialog>
+      <simple_dialog pos="left" chara="ling" img="gal_ling" key="gal-line-7418552d-c5f0-11f0-af61-9184941efb97">嗯…好熟悉的特征…Fairy你说的该不会是…！</simple_dialog>
+      <simple_dialog chara="-2" key="gal-line-aed6c100-ebd0-11f0-bd98-ff181a3e7afb">[em bold] [/em]</simple_dialog>
+      <simple_dialog pos="left" chara="billy" img="gal_billy" key="gal-line-7418552e-c5f0-11f0-af61-9184941efb97">星辉！登场！</simple_dialog>
+      <simple_dialog pos="left" chara="ling" img="gal_ling" key="gal-line-7418552f-c5f0-11f0-af61-9184941efb97">由于我们两人都不太擅长舞蹈，临时邀请了比…「星徽」老师作为协助人，来指导大家的舞蹈训练~</simple_dialog>
+      <simple_dialog pos="right" chara="ng" img="gal_ng_3" key="gal-line-74185530-c5f0-11f0-af61-9184941efb97">「星徽」老师好~</simple_dialog>
+      <simple_dialog pos="right" chara="qx" img="gal_qx_1" key="gal-line-74185531-c5f0-11f0-af61-9184941efb97">星星星徽老师好！</simple_dialog>
+      <simple_dialog pos="left" chara="billy" img="gal_billy" key="gal-line-74185532-c5f0-11f0-af61-9184941efb97">嗯嗯！放心吧大家！我会让你们在舞台上——如星徽般闪耀的！</simple_dialog>
+      <simple_dialog pos="right" chara="zhe" img="gal_zhe" key="gal-line-74185533-c5f0-11f0-af61-9184941efb97">老师你今天好像…情绪格外高涨啊。</simple_dialog>
+      <simple_dialog pos="left" chara="ling" img="gal_ling" key="gal-line-74185534-c5f0-11f0-af61-9184941efb97">八成是因为被称作「星徽」老师以后开心过头了吧…咳咳， 我准备播放曲子了哦~</simple_dialog>
+      <simple_dialog pos="left" chara="billy" img="gal_billy" key="gal-line-74185535-c5f0-11f0-af61-9184941efb97">哦？这个节奏…作为训练曲再合适不过了！</simple_dialog>
+      <simple_dialog pos="right" chara="ar" img="gal_ar_3" key="gal-line-74185536-c5f0-11f0-af61-9184941efb97">…「星徽」老师，我可以问您一个问题吗？</simple_dialog>
+      <simple_dialog pos="left" chara="billy" img="gal_billy" key="gal-line-74185537-c5f0-11f0-af61-9184941efb97">嗯？当然可以了，爱芮同学！</simple_dialog>
+      <simple_dialog pos="right" chara="ar" img="gal_ar_3" key="gal-line-74185538-c5f0-11f0-af61-9184941efb97">老师您…是智能构造体吗？</simple_dialog>
+      <simple_dialog pos="left" chara="billy" img="gal_billy" key="gal-line-74185539-c5f0-11f0-af61-9184941efb97">嗯…是从声音上判断出来的吗？真是一位善于思考的同学。</simple_dialog>
+      <simple_dialog pos="right" chara="ng" img="gal_ng_5" key="gal-line-7418553a-c5f0-11f0-af61-9184941efb97">诶？！明明是智能构造体，为什么动作却和橡皮管一样柔软啊！</simple_dialog>
+      <simple_dialog pos="left" chara="billy" img="gal_billy" key="gal-line-7418553b-c5f0-11f0-af61-9184941efb97">哼哼！这就是「星徽」老师的实力！</simple_dialog>
+      <simple_dialog pos="left" chara="billy" img="gal_billy" key="gal-line-7418553c-c5f0-11f0-af61-9184941efb97">南宫同学的力度和肢体控制都非常棒！但偶尔也可以尝试把动作放柔和点哦~这样律动感会更突出的。</simple_dialog>
+      <simple_dialog pos="right" chara="ng" img="gal_ng_4" key="gal-line-7418553d-c5f0-11f0-af61-9184941efb97">更…柔软一些，原来如此。</simple_dialog>
+      <simple_dialog pos="left" chara="billy" img="gal_billy" key="gal-line-7418553e-c5f0-11f0-af61-9184941efb97">那个，千夏同学，不用那么紧张，跳错了也没事。诶对对！就这样，自然一些，进步很大哦！</simple_dialog>
+      <simple_dialog pos="right" chara="qx" img="gal_qx_3" key="gal-line-7418553f-c5f0-11f0-af61-9184941efb97">我我我才才没有紧张呢！诶等等，现在是左脚…哦不对，是抬右手吗？！</simple_dialog>
+      <simple_dialog pos="right" chara="ar" img="gal_ar_3" key="gal-line-74185540-c5f0-11f0-af61-9184941efb97">……</simple_dialog>
+      <simple_dialog pos="left" chara="billy" img="gal_billy" key="gal-line-74185541-c5f0-11f0-af61-9184941efb97">嗯…爱芮同学，跳舞的时候不用想太多，把你对观众的感情传达出去就好！</simple_dialog>
+      <simple_dialog pos="right" chara="ar" img="gal_ar_3" key="gal-line-74185542-c5f0-11f0-af61-9184941efb97">好，好的！</simple_dialog>
+      <simple_dialog pos="left" chara="billy" img="gal_billy" key="gal-line-74185543-c5f0-11f0-af61-9184941efb97">嗯！现在就很好，把你想传达的，用舞步去表达吧！</simple_dialog>
+      <simple_dialog pos="left" chara="billy" img="gal_billy" key="gal-line-74185544-c5f0-11f0-af61-9184941efb97">好！——今天的舞蹈集训到此结束，大家的进步都很大啊！</simple_dialog>
+      <simple_dialog pos="right" chara="ng" img="gal_ng_3" key="gal-line-74185545-c5f0-11f0-af61-9184941efb97">原来柔软的动作，也可以那么有力量感…谢谢「星徽」老师！</simple_dialog>
+      <simple_dialog pos="right" chara="ng" img="gal_ng_3" key="gal-line-74185546-c5f0-11f0-af61-9184941efb97">千夏的动作也自然了很多呢~</simple_dialog>
+      <simple_dialog pos="left" chara="qx" img="gal_qx_1" key="gal-line-74185547-c5f0-11f0-af61-9184941efb97">让让我自己说啦！南宫大坏蛋！</simple_dialog>
+      <simple_dialog pos="right" chara="ar" img="gal_ar_1" key="gal-line-74185548-c5f0-11f0-af61-9184941efb97">谢谢「星徽」老师~将想传达的情感，用舞步去表达…我好像明白一些了！</simple_dialog>
+      <simple_dialog pos="left" chara="billy" img="gal_billy" key="gal-line-74185549-c5f0-11f0-af61-9184941efb97">嗯嗯！这都是你们努力训练的成果。本次舞蹈集训到此结束，大家再见~</simple_dialog>
+      <simple_dialog chara="-2" key="gal-line-54183120-ebcd-11f0-aed9-9de43849c717">[em bold] [/em]</simple_dialog>
+      <simple_dialog pos="right" chara="ling" img="gal_ling" key="gal-line-7418554a-c5f0-11f0-af61-9184941efb97">辛苦了，星~徽~老~师~</simple_dialog>
+      <simple_dialog pos="left" chara="billy" img="gal_billy" key="gal-line-7418554b-c5f0-11f0-af61-9184941efb97">店长你就别这样叫我了吧！咳咳，虽然被称作「星徽」——还挺开心的，嘿嘿！</simple_dialog>
+      <simple_dialog pos="left" chara="billy" img="gal_billy" key="gal-line-7418554c-c5f0-11f0-af61-9184941efb97">不过店长，为什么我们要匿名登场啊？</simple_dialog>
+      <simple_dialog pos="right" chara="zhe" img="gal_zhe" key="gal-line-7418554d-c5f0-11f0-af61-9184941efb97">呃…绳匠和盗洞客，都不是什么方便公开的身份。如果被粉丝发现了，可能会有不好的舆论…</simple_dialog>
+      <simple_dialog pos="right" chara="ling" img="gal_ling" key="gal-line-7418554e-c5f0-11f0-af61-9184941efb97">嗯嗯，而且不知道Fairy之后会请来什么协助人员…保险起见，保险起见。</simple_dialog>
+      <simple_dialog pos="left" chara="billy" img="gal_billy" key="gal-line-7418554f-c5f0-11f0-af61-9184941efb97">哦哦哦！也对哦！果然还是店长考虑的周到呀！这样确实安全一些！</simple_dialog>
+      <simple_dialog pos="left" chara="billy" img="gal_billy" key="gal-line-74185550-c5f0-11f0-af61-9184941efb97">那么，我也下线了~店长再见！</simple_dialog>
+      <simple_dialog pos="right" chara="ling" img="gal_ling" key="gal-line-74185551-c5f0-11f0-af61-9184941efb97">嗯！再见比利！</simple_dialog>
+      <simple_dialog pos="left" chara="zhe" img="gal_zhe" key="gal-line-74185552-c5f0-11f0-af61-9184941efb97">谢谢比利了，下次见。</simple_dialog>
+      <simple_dialog pos="center" chara="billy" img="gal_billy" key="gal-line-74185553-c5f0-11f0-af61-9184941efb97">「妄想天使」，都是有上进心的好孩子啊！如果门票不贵的话，我也想支持一下她们的演出…</simple_dialog>
+      <simple_dialog pos="center" chara="billy" img="gal_billy" key="gal-line-74185554-c5f0-11f0-af61-9184941efb97">诶，有新消息，是店长忘记交代什么事了吗？这个链接是……</simple_dialog>
+    </scene>
+    <scene id="3" title="结尾">
+      <simple_dialog pos="right" chara="qx" img="gal_qx_3" key="gal-line-74185555-c5f0-11f0-af61-9184941efb97">南…南宫，我的腿还在吗？已经快没有知觉了…</simple_dialog>
+      <simple_dialog pos="right" chara="qx" img="gal_qx_1" key="gal-line-74185556-c5f0-11f0-af61-9184941efb97">啊啊啊好痛！你突然掐我干嘛！？</simple_dialog>
+      <simple_dialog pos="left" chara="ng" img="gal_ng_6" key="gal-line-74185557-c5f0-11f0-af61-9184941efb97">嘿嘿，看来小千夏的腿还在~真是太好啦！</simple_dialog>
+      <simple_dialog pos="right" chara="qx" img="gal_qx_5" key="gal-line-74185558-c5f0-11f0-af61-9184941efb97">呜…你就知道欺负我！</simple_dialog>
+      <simple_dialog pos="left" chara="ng" img="gal_ng_3" key="gal-line-74185559-c5f0-11f0-af61-9184941efb97">哪有~我夸你还来不及呢！你现在基本都能跟上我的节奏了，说不定过段时间，主舞的位置都要被你抢走啦~</simple_dialog>
+      <simple_dialog pos="right" chara="ar" img="gal_ar_1" key="gal-line-7418555a-c5f0-11f0-af61-9184941efb97">我也觉得自己的唱跳水平提升了不少，气息更稳定了呢。</simple_dialog>
+      <simple_dialog pos="left" chara="sxly" img="gal_sxly" key="gal-line-7418555b-c5f0-11f0-af61-9184941efb97">看来我的小天使们，都收获了不小的进步呢。</simple_dialog>
+      <simple_dialog pos="right" chara="qx" img="gal_qx_7" key="gal-line-7418555c-c5f0-11f0-af61-9184941efb97">老师！我跟你说~这几天的训练…</simple_dialog>
+      <simple_dialog chara="-2" key="gal-line-aed6c101-ebd0-11f0-bd98-ff181a3e7afb">[em bold] [/em]</simple_dialog>
+      <simple_dialog pos="right" chara="qx" img="gal_qx_6" key="gal-line-7418555d-c5f0-11f0-af61-9184941efb97">虽然说助教是很厉害啦，但有时候强度太——高了！真的好累哦！</simple_dialog>
+      <simple_dialog pos="right" chara="ng" img="gal_ng_1" key="gal-line-7418555e-c5f0-11f0-af61-9184941efb97">嗯，偶尔确实有挑战极限的感觉，呵呵~</simple_dialog>
+      <simple_dialog pos="left" chara="sxly" img="gal_sxly" key="gal-line-7418555f-c5f0-11f0-af61-9184941efb97">这样吗？嗯…在我看来，助教给你们的练习安排，其实都只是基础功哦。</simple_dialog>
+      <simple_dialog pos="right" chara="ar" img="gal_ar_4" key="gal-line-74185560-c5f0-11f0-af61-9184941efb97">老师，你的意思是，现在的训练只是「入门」，未来的训练…只会更难吗？</simple_dialog>
+      <simple_dialog pos="left" chara="sxly" img="gal_sxly" key="gal-line-74185561-c5f0-11f0-af61-9184941efb97">嗯…理论上来说，好像是呢，小爱芮~</simple_dialog>
+      <simple_dialog pos="right" chara="ng" img="gal_ng_3" key="gal-line-74185562-c5f0-11f0-af61-9184941efb97">嗯哼~看来某人要受不了了~</simple_dialog>
+      <simple_dialog pos="right" chara="qx" img="gal_qx_3" key="gal-line-74185563-c5f0-11f0-af61-9184941efb97">魔魔魔…魔鬼啊…</simple_dialog>
+      <simple_dialog chara="-2" key="gal-line-aed6c102-ebd0-11f0-bd98-ff181a3e7afb">[em bold] [/em]</simple_dialog>
+      <simple_dialog pos="left" chara="sxly" img="gal_sxly" key="gal-line-74185564-c5f0-11f0-af61-9184941efb97">嗯…可能对现在的大家来说，这样的训练，强度真的有点大？</simple_dialog>
+      <simple_dialog pos="left" chara="sxly" img="gal_sxly" key="gal-line-74185565-c5f0-11f0-af61-9184941efb97">这么说来，也许这份训练日程还需要调整吗……</simple_dialog>
+      <simple_dialog pos="left" chara="sxly" img="gal_sxly" key="gal-line-74185566-c5f0-11f0-af61-9184941efb97">好，我去适当修改一下训练系统的权重安排吧。毕竟可不能让我的小宝贝们因为过量训练受伤啊…</simple_dialog>
+      <simple_dialog pos="left" chara="qx" img="gal_qx_4" key="gal-line-74185567-c5f0-11f0-af61-9184941efb97">老师说，现在的训练都是非常简单基础的…</simple_dialog>
+      <simple_dialog pos="left" chara="qx" img="gal_qx_5" key="gal-line-74185568-c5f0-11f0-af61-9184941efb97">明明都是「入门」的训练，为什么做不好呢…</simple_dialog>
+      <simple_dialog pos="left" chara="qx" img="gal_qx_5" key="gal-line-74185569-c5f0-11f0-af61-9184941efb97">不行，不能再这样下去，不能再拖小羽和爱芮的后腿了！</simple_dialog>
+      <simple_dialog pos="left" chara="qx" img="gal_qx_5" key="gal-line-7418556a-c5f0-11f0-af61-9184941efb97">…好！我、我来调整一下系统吧，训练强度…</simple_dialog>
+      <simple_dialog pos="right" key="gal-line-7418556b-c5f0-11f0-af61-9184941efb97" img="gal_fairy2" chara="fairy">…</simple_dialog>
+    </scene>
+  </scripts>
+</data>

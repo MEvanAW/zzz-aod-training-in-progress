@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <resource>
+    <chara id="gal_ar_1" rel="ar" src="https://act-webstatic.mihoyo.com/upload-static-galgame/2025/12/05/8c990763086690945c0595236962fcdc_7036377475597272015.png" src_os="https://act-webstatic.hoyoverse.com/upload-static-galgame/2025/12/05/8c990763086690945c0595236962fcdc_7036377475597272015.png"></chara>
+    <chara id="gal_ar_2" rel="ar" src="https://act-webstatic.mihoyo.com/upload-static-galgame/2025/12/05/7855d4eb5cc59ca84aa558f7606a9939_4731578630959900541.png" src_os="https://act-webstatic.hoyoverse.com/upload-static-galgame/2025/12/05/7855d4eb5cc59ca84aa558f7606a9939_4731578630959900541.png"></chara>
+    <chara id="gal_ar_3" rel="ar" src="https://act-webstatic.mihoyo.com/upload-static-galgame/2025/12/05/2637bb929e2b175d6d4fdf1fb846a6a4_7982176808071556320.png" src_os="https://act-webstatic.hoyoverse.com/upload-static-galgame/2025/12/05/2637bb929e2b175d6d4fdf1fb846a6a4_7982176808071556320.png"></chara>
+    <chara id="gal_ar_4" rel="ar" src="https://act-webstatic.mihoyo.com/upload-static-galgame/2025/12/05/cbad28a77992bce7ff9b840ef5e41457_1576554768353382451.png" src_os="https://act-webstatic.hoyoverse.com/upload-static-galgame/2025/12/05/cbad28a77992bce7ff9b840ef5e41457_1576554768353382451.png"></chara>
+    <chara id="gal_ar_5" rel="ar" src="https://act-webstatic.mihoyo.com/upload-static-galgame/2025/12/05/b5880c79f21e0ee575708e91705889dd_5315084579577684646.png" src_os="https://act-webstatic.hoyoverse.com/upload-static-galgame/2025/12/05/b5880c79f21e0ee575708e91705889dd_5315084579577684646.png"></chara>
+    <chara id="gal_ar_6" rel="ar" src="https://act-webstatic.mihoyo.com/upload-static-galgame/2025/12/05/87945907e36483181d5ff7e728c36008_6780512266961021073.png" src_os="https://act-webstatic.hoyoverse.com/upload-static-galgame/2025/12/05/87945907e36483181d5ff7e728c36008_6780512266961021073.png"></chara>
+    <chara id="gal_ng_1" rel="ng" src="https://act-webstatic.mihoyo.com/upload-static-galgame/2025/12/05/4597ae4da4959b2e240057ffbdbb69d7_6736389249441570535.png" src_os="https://act-webstatic.hoyoverse.com/upload-static-galgame/2025/12/05/4597ae4da4959b2e240057ffbdbb69d7_6736389249441570535.png"></chara>
+    <chara id="gal_ng_2" rel="ng" src="https://act-webstatic.mihoyo.com/upload-static-galgame/2025/12/05/08384da3a8bed75cf9627e11538dd0c5_1096542669967694003.png" src_os="https://act-webstatic.hoyoverse.com/upload-static-galgame/2025/12/05/08384da3a8bed75cf9627e11538dd0c5_1096542669967694003.png"></chara>
+    <chara id="gal_ng_3" rel="ng" src="https://act-webstatic.mihoyo.com/upload-static-galgame/2025/12/05/41353ef381fdf268512358dd8c8e3aea_8550471781944888014.png" src_os="https://act-webstatic.hoyoverse.com/upload-static-galgame/2025/12/05/41353ef381fdf268512358dd8c8e3aea_8550471781944888014.png"></chara>
+    <chara id="gal_ng_4" rel="ng" src="https://act-webstatic.mihoyo.com/upload-static-galgame/2025/12/05/11310571be1d34360a1fa1636d8279ba_8211678239773725375.png" src_os="https://act-webstatic.hoyoverse.com/upload-static-galgame/2025/12/05/11310571be1d34360a1fa1636d8279ba_8211678239773725375.png"></chara>
+    <chara id="gal_ng_5" rel="ng" src="https://act-webstatic.mihoyo.com/upload-static-galgame/2025/12/05/9797fa69f47484b4674048d28093e3a7_8545014565964549668.png" src_os="https://act-webstatic.hoyoverse.com/upload-static-galgame/2025/12/05/9797fa69f47484b4674048d28093e3a7_8545014565964549668.png"></chara>
+    <chara id="gal_ng_6" rel="ng" src="https://act-webstatic.mihoyo.com/upload-static-galgame/2025/12/05/12bbab40b0ee25e29831d1831e0317e1_8524743315631344269.png" src_os="https://act-webstatic.hoyoverse.com/upload-static-galgame/2025/12/05/12bbab40b0ee25e29831d1831e0317e1_8524743315631344269.png"></chara>
+    <chara id="gal_ng_7" rel="ng" src="https://act-webstatic.mihoyo.com/upload-static-galgame/2025/12/05/5edafab64de92574fb9b20b6022be33e_1143456353188823699.png" src_os="https://act-webstatic.hoyoverse.com/upload-static-galgame/2025/12/05/5edafab64de92574fb9b20b6022be33e_1143456353188823699.png"></chara>
+    <chara id="gal_qx_1" rel="qx" src="https://act-webstatic.mihoyo.com/upload-static-galgame/2025/12/05/82117b0e7df9bf0ba21cfe8c0a24eb39_4636764736716579033.png" src_os="https://act-webstatic.hoyoverse.com/upload-static-galgame/2025/12/05/82117b0e7df9bf0ba21cfe8c0a24eb39_4636764736716579033.png"></chara>
+    <chara id="gal_qx_2" rel="qx" src="https://act-webstatic.mihoyo.com/upload-static-galgame/2025/12/05/8e679736a8a92de6df51634f2a82a3c4_1701601947864743981.png" src_os="https://act-webstatic.hoyoverse.com/upload-static-galgame/2025/12/05/8e679736a8a92de6df51634f2a82a3c4_1701601947864743981.png"></chara>
+    <chara id="gal_qx_3" rel="qx" src="https://act-webstatic.mihoyo.com/upload-static-galgame/2025/12/05/3a544f30f1fc57edeadfb6091c4a6740_8426295561026771244.png" src_os="https://act-webstatic.hoyoverse.com/upload-static-galgame/2025/12/05/3a544f30f1fc57edeadfb6091c4a6740_8426295561026771244.png"></chara>
+    <chara id="gal_qx_4" rel="qx" src="https://act-webstatic.mihoyo.com/upload-static-galgame/2025/12/05/783cb6d45c8391648805f5c6ec55348f_1339080156211651929.png" src_os="https://act-webstatic.hoyoverse.com/upload-static-galgame/2025/12/05/783cb6d45c8391648805f5c6ec55348f_1339080156211651929.png"></chara>
+    <chara id="gal_qx_5" rel="qx" src="https://act-webstatic.mihoyo.com/upload-static-galgame/2025/12/05/1815ec925ce2e3a0d25f635d1081b94b_7484073473789060074.png" src_os="https://act-webstatic.hoyoverse.com/upload-static-galgame/2025/12/05/1815ec925ce2e3a0d25f635d1081b94b_7484073473789060074.png"></chara>
+    <chara id="gal_qx_6" rel="qx" src="https://act-webstatic.mihoyo.com/upload-static-galgame/2025/12/05/ef06f87df38561619edad64c13d18aae_3063624953072961966.png" src_os="https://act-webstatic.hoyoverse.com/upload-static-galgame/2025/12/05/ef06f87df38561619edad64c13d18aae_3063624953072961966.png"></chara>
+    <chara id="gal_qx_7" rel="qx" src="https://act-webstatic.mihoyo.com/upload-static-galgame/2025/12/05/ad0d495c1545aebbf97c7c234b3f4573_2292620567651846367.png" src_os="https://act-webstatic.hoyoverse.com/upload-static-galgame/2025/12/05/ad0d495c1545aebbf97c7c234b3f4573_2292620567651846367.png"></chara>
+    <chara id="gal_alice" rel="alice" src="https://act-webstatic.mihoyo.com/upload-static-galgame/2025/11/20/0ee6f812cc56640d2a152ea80f601a1a_1291485923168761646.png" src_os="https://act-webstatic.hoyoverse.com/upload-static-galgame/2025/11/20/0ee6f812cc56640d2a152ea80f601a1a_1291485923168761646.png"></chara>
+    <chara id="gal_anby" rel="anby" src="https://act-webstatic.mihoyo.com/upload-static-galgame/2025/11/20/02fa0bc086612d4ed8cff770a17504bf_5554326113832045432.png" src_os="https://act-webstatic.hoyoverse.com/upload-static-galgame/2025/11/20/02fa0bc086612d4ed8cff770a17504bf_5554326113832045432.png"></chara>
+    <chara id="gal_billy" rel="billy" src="https://act-webstatic.mihoyo.com/upload-static-galgame/2025/11/20/c0a92aa9e8e2e083c0dbef1cde40339b_2062602534325654206.png" src_os="https://act-webstatic.hoyoverse.com/upload-static-galgame/2025/11/20/c0a92aa9e8e2e083c0dbef1cde40339b_2062602534325654206.png"></chara>
+    <chara id="gal_burnice" rel="burnice" src="https://act-webstatic.mihoyo.com/upload-static-galgame/2025/11/20/28995eacdda4020b52808f9d56fce479_1188855687478212856.png" src_os="https://act-webstatic.hoyoverse.com/upload-static-galgame/2025/11/20/28995eacdda4020b52808f9d56fce479_1188855687478212856.png"></chara>
+    <chara id="gal_jff" rel="jff" src="https://act-webstatic.mihoyo.com/upload-static-galgame/2025/11/20/b4b7858b77e15c9f4ee2a6f12fe2de45_5334943165518199191.png" src_os="https://act-webstatic.hoyoverse.com/upload-static-galgame/2025/11/20/b4b7858b77e15c9f4ee2a6f12fe2de45_5334943165518199191.png"></chara>
+    <chara id="gal_ling" rel="ling" src="https://act-webstatic.mihoyo.com/upload-static-galgame/2025/11/20/c67d3c1d8fa812df55421287262b324e_5493928833146312516.png" src_os="https://act-webstatic.hoyoverse.com/upload-static-galgame/2025/11/20/c67d3c1d8fa812df55421287262b324e_5493928833146312516.png"></chara>
+    <chara id="gal_pp" rel="pp" src="https://act-webstatic.mihoyo.com/upload-static-galgame/2025/11/20/dd6ca66ba37657da6a61c62d1cae2f21_2657405653373085077.png" src_os="https://act-webstatic.hoyoverse.com/upload-static-galgame/2025/11/20/dd6ca66ba37657da6a61c62d1cae2f21_2657405653373085077.png"></chara>
+    <chara id="gal_sxly" rel="sxly" src="https://act-webstatic.mihoyo.com/upload-static-galgame/2025/11/20/1ec6f52f2c8715cf5654b630f5b290d7_3606559539618888034.png" src_os="https://act-webstatic.hoyoverse.com/upload-static-galgame/2025/11/20/1ec6f52f2c8715cf5654b630f5b290d7_3606559539618888034.png"></chara>
+    <chara id="gal_astra" rel="astra" src="https://act-webstatic.mihoyo.com/upload-static-galgame/2025/11/20/16e2ab444b894b37156c1e05dc4d1332_8848430702556081915.png" src_os="https://act-webstatic.hoyoverse.com/upload-static-galgame/2025/11/20/16e2ab444b894b37156c1e05dc4d1332_8848430702556081915.png"></chara>
+    <chara id="gal_zhe" rel="zhe" src="https://act-webstatic.mihoyo.com/upload-static-galgame/2025/11/20/ec4295df9719b5eb69a6ab438b6b6506_6585388859877446889.png" src_os="https://act-webstatic.hoyoverse.com/upload-static-galgame/2025/11/20/ec4295df9719b5eb69a6ab438b6b6506_6585388859877446889.png"></chara>
+    <chara id="gal_fairy" rel="fairy" src="https://act-webstatic.mihoyo.com/upload-static-galgame/2026/01/05/a3f5b83f7a4835f61d8d24036f80d017_4871880467077074647.png" src_os="https://act-webstatic.hoyoverse.com/upload-static-galgame/2026/01/05/a3f5b83f7a4835f61d8d24036f80d017_4871880467077074647.png"></chara>
+    <chara id="gal_fairy2" rel="fairy" src="https://act-webstatic.mihoyo.com/upload-static-galgame/2026/01/05/5eb69898a1c387dee4b7a14c0bdc7120_1335922994182668183.png" src_os="https://act-webstatic.hoyoverse.com/upload-static-galgame/2026/01/05/5eb69898a1c387dee4b7a14c0bdc7120_1335922994182668183.png"></chara>
+  </resource>
+  <characters>
+    <c id="-1" name="玩家"></c>
+    <c id="-2" name="text"></c>
+    <c id="-3" name="text"></c>
+    <c id="ng" name="南宫" key="gal-chara-445e9398-3f01-4115-a373-f7d0efe4a018"></c>
+    <c id="qx" name="千夏" key="gal-chara-dcbe2296-6c20-4aea-8fce-fe4a95fa095b"></c>
+    <c id="ar" name="爱芮" key="gal-chara-db02db34-0feb-47a4-aa56-9e497e673722"></c>
+    <c id="sxly" name="塞西莉亚" key="gal-chara-89e4cbaf-8779-4f28-82d9-3a5c89a51498"></c>
+    <c id="ling" name="铃" key="gal-chara-104d12ed-03b2-484b-8f73-46fd1ed75ec2"></c>
+    <c id="zhe" name="哲" key="gal-chara-ff01ff22-8b70-43bb-9989-95d41af06a3a"></c>
+    <c id="fairy" name="fairy" key="gal-chara-93f70382-c4bc-42e5-a7b9-deebbce070e1"></c>
+    <c id="group" name="妄想天使" key="gal-chara-90fe3380-8200-4414-9afd-34558c620dff"></c>
+    <c id="billy" name="比利" key="gal-chara-cf238ce0-bc5c-4e6e-b358-367dd2a67f65"></c>
+    <c id="jff" name="橘福福" key="gal-chara-f7a63c69-e94d-4d40-8cfa-0ab2e8af97d1"></c>
+    <c id="burnice" name="柏妮思" key="gal-chara-d4dc405e-abf8-4f6e-b0c5-16f42475c911"></c>
+    <c id="astra" name="耀嘉音" key="gal-chara-fd0cf075-75c5-4df5-9d41-d16bab6403c1"></c>
+    <c id="alice" name="爱丽斯" key="gal-chara-8b0a2b66-5ad1-4b04-a050-7dbb7f1b5c7e"></c>
+    <c id="anby" name="安比" key="gal-chara-ab5b8f6d-fe88-49f9-b708-5cfbd12fced4"></c>
+    <c id="pp" name="派派" key="gal-chara-330db391-54b4-4f9b-8378-00c5142da0aa"></c>
+    <c id="rp" name="法厄同" key="gal-chara-04ff3a82-7681-450d-a63a-405c80aeaf36"></c>
+    <c id="err" name="系统错误" key="gal-chara-3395b88d-b0a7-468f-8e48-9c4409bc26b5"></c>
+  </characters>
+</data>

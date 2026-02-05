@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data id="574">
+  <scripts>
+    <scene id="1" title="开场">
+      <simple_dialog pos="left" chara="ng" img="gal_ng_1" key="gal-line-c4ed26d0-c5ee-11f0-af61-9184941efb97">呼，今天的训练就到这儿吧。</simple_dialog>
+      <simple_dialog pos="right" chara="qx" img="gal_qx_3" key="gal-line-c4ed26d1-c5ee-11f0-af61-9184941efb97">我我我还想再练一会儿，进副歌的那段舞步一直没踩准节拍来着…</simple_dialog>
+      <simple_dialog pos="right" chara="ar" img="gal_ar_3" key="gal-line-c4ed26d2-c5ee-11f0-af61-9184941efb97">我也是…高音部分还有一点瑕疵，大家可以陪我再来一遍吗？</simple_dialog>
+      <simple_dialog pos="left" chara="ng" img="gal_ng_4" key="gal-line-c4ed26d3-c5ee-11f0-af61-9184941efb97">嗯…我也有还想继续练习的部分…那我们就再来一…</simple_dialog>
+      <simple_dialog pos="left" chara="sxly" img="gal_sxly" key="gal-line-c4ed26d4-c5ee-11f0-af61-9184941efb97">嗯？我的宝贝们，怎么都一副没精打采的样子呀？</simple_dialog>
+      <simple_dialog pos="right" chara="ar" img="gal_ar_2" key="gal-line-c4ed26d5-c5ee-11f0-af61-9184941efb97">是塞西莉亚老师！</simple_dialog>
+      <simple_dialog pos="right" chara="ng" img="gal_ng_1" key="gal-line-c4ed26d6-c5ee-11f0-af61-9184941efb97">没什么啦，只是刚结束训练，大家都有点疲惫…</simple_dialog>
+      <simple_dialog pos="left" chara="sxly" img="gal_sxly" key="gal-line-c4ed26d7-c5ee-11f0-af61-9184941efb97">嗯，那就说点什么激励你们一下吧~为了这么努力训练的小天使们，我正好特地准备了一份惊喜哦！</simple_dialog>
+      <simple_dialog pos="right" chara="qx" img="gal_qx_7" key="gal-line-c4ed26d8-c5ee-11f0-af61-9184941efb97">惊喜！？是什么呀——</simple_dialog>
+      <simple_dialog pos="right" chara="ng" img="gal_ng_6" key="gal-line-c4ed26d9-c5ee-11f0-af61-9184941efb97">按照塞西莉亚老师的风格，这次肯定还是小发卡、糖果盒之类的小礼物吧？</simple_dialog>
+      <simple_dialog pos="left" chara="sxly" img="gal_sxly" key="gal-line-c4ed26da-c5ee-11f0-af61-9184941efb97">不是哦~呵呵，这次我准备的，是真正的——很大的惊喜！</simple_dialog>
+      <simple_dialog pos="left" chara="sxly" img="gal_sxly" key="gal-line-c4ed26db-c5ee-11f0-af61-9184941efb97">虽然现在还不能说，不过你们要和老师做个约定，要以「妄想天使」最好的姿态来迎接这份惊喜哦！</simple_dialog>
+      <simple_dialog pos="right" chara="ar" img="gal_ar_3" key="gal-line-c4ed26dc-c5ee-11f0-af61-9184941efb97">诶，等等老师…啊，她关掉通讯了…</simple_dialog>
+      <simple_dialog pos="right" chara="qx" img="gal_qx_7" key="gal-line-c4ed26dd-c5ee-11f0-af61-9184941efb97">惊惊惊喜！我最喜欢惊喜了！——南宫，爱芮，你们觉得会是什么呢？天哪，好期待！</simple_dialog>
+      <simple_dialog pos="left" chara="ng" img="gal_ng_3" key="gal-line-c4ed26de-c5ee-11f0-af61-9184941efb97">光期待惊喜可是不行的哦~千夏别忘了后半句——要以「妄想天使」最好的姿态来迎接它哦！</simple_dialog>
+      <simple_dialog pos="right" chara="ar" img="gal_ar_4" key="gal-line-c4ed26df-c5ee-11f0-af61-9184941efb97">可是我们最近的训练，好像很难称得上是最好的状态…</simple_dialog>
+      <simple_dialog pos="left" chara="ng" img="gal_ng_4" key="gal-line-c4ed26e0-c5ee-11f0-af61-9184941efb97">唉~这就是所谓的瓶颈期吧。</simple_dialog>
+      <simple_dialog pos="right" chara="qx" img="gal_qx_3" key="gal-line-c4ed26e1-c5ee-11f0-af61-9184941efb97">难道说…继续按照以前的方式练习，最后可能还是达不到老师的要求吗！？</simple_dialog>
+      <simple_dialog pos="left" chara="ng" img="gal_ng_3" key="gal-line-c4ed4de0-c5ee-11f0-af61-9184941efb97">嗯~看来我们只能自己想想办法，去寻找一些「特别」的帮助了。</simple_dialog>
+      <simple_dialog pos="right" chara="qx" img="gal_qx_6" key="gal-line-c4ed4de1-c5ee-11f0-af61-9184941efb97">嗯！绝对不能让老师失望！</simple_dialog>
+      <simple_dialog pos="right" chara="ar" img="gal_ar_1" key="gal-line-c4ed4de2-c5ee-11f0-af61-9184941efb97">那…「特别」的帮助是？</simple_dialog>
+    </scene>
+    <scene id="2" title="助教">
+      <simple_dialog key="gal-line-eeeb9430-c5ee-11f0-af61-9184941efb97" chara="-2">数日前，训练的第一天早上——</simple_dialog>
+      <simple_dialog pos="left" chara="ling" img="gal_ling" key="gal-line-eeeb9431-c5ee-11f0-af61-9184941efb97">Fairy！！这个「专业偶像助教」委托是怎么回事呀！</simple_dialog>
+      <simple_dialog pos="right" chara="zhe" img="gal_zhe" key="gal-line-eeeb9432-c5ee-11f0-af61-9184941efb97">训练对象是「妄想天使」吗…</simple_dialog>
+      <simple_dialog pos="left" chara="ling" img="gal_ling" key="gal-line-eeeb9433-c5ee-11f0-af61-9184941efb97">不不不，关键问题在于，我们根本没有什么训练偶像的经验啊，哥哥！</simple_dialog>
+      <simple_dialog pos="right" key="gal-line-eeeb9434-c5ee-11f0-af61-9184941efb97" img="gal_fairy" chara="fairy">不必担心，主人。新艾利都最强的智能管家，已为您设计和安排好了训练日程。</simple_dialog>
+      <simple_dialog pos="right" key="gal-line-eeeb9435-c5ee-11f0-af61-9184941efb97" img="gal_fairy" chara="fairy">此外，我已为您筛选与联系了合适的协助人，以满足主人对委托人进行「专业训练」的需求。</simple_dialog>
+      <simple_dialog pos="left" chara="ling" img="gal_ling" key="gal-line-eeeb9436-c5ee-11f0-af61-9184941efb97">居然还联系了其他人…Fairy，你的行动也太迅速了吧！</simple_dialog>
+      <simple_dialog pos="right" key="gal-line-eeeb9437-c5ee-11f0-af61-9184941efb97" img="gal_fairy" chara="fairy">推测您可能需要该附加信息：本次委托的委托费为███丁尼。</simple_dialog>
+      <simple_dialog pos="left" chara="ling" img="gal_ling" key="gal-line-eeeb9438-c5ee-11f0-af61-9184941efb97">这么多？！</simple_dialog>
+      <simple_dialog pos="left" chara="zhe" img="gal_zhe" key="gal-line-eeeb9439-c5ee-11f0-af61-9184941efb97">咳咳，Fairy，这次我们就不追究了。但如果有下次，希望你还是事先和我们商量一下。</simple_dialog>
+      <simple_dialog pos="right" key="gal-line-eeeb943a-c5ee-11f0-af61-9184941efb97" img="gal_fairy" chara="fairy">肯定。该需求已列入待办，优先级为「随缘执行」。</simple_dialog>
+      <simple_dialog pos="right" key="gal-line-eeeb943b-c5ee-11f0-af61-9184941efb97" img="gal_fairy" chara="fairy">提议，在本次委托中，建议主人以「神秘助教」的身份出场。</simple_dialog>
+      <simple_dialog pos="left" chara="ling" img="gal_ling" key="gal-line-eeeb943c-c5ee-11f0-af61-9184941efb97">诶？不能暴露身份吗？感觉好像在执行什么秘密任务…</simple_dialog>
+      <simple_dialog pos="left" chara="zhe" img="gal_zhe" key="gal-line-eeeb943d-c5ee-11f0-af61-9184941efb97">既然Fairy如此提议，可能是有必须这么做的理由吧。事已至此，先相信她吧。</simple_dialog>
+      <simple_dialog pos="right" key="gal-line-eeeb943e-c5ee-11f0-af61-9184941efb97" img="gal_fairy" chara="fairy">感谢理解。您最好的智能管家，将即刻为您拟定后续的训练日程。</simple_dialog>
+      <simple_dialog pos="left" chara="ling" img="gal_ling" key="gal-line-eeeb943f-c5ee-11f0-af61-9184941efb97">哥，你不觉得Fairy好像有些怪怪的吗…先是自行接下委托，又是主动联系协助人…</simple_dialog>
+      <simple_dialog pos="right" chara="zhe" img="gal_zhe" key="gal-line-eeeb9440-c5ee-11f0-af61-9184941efb97">我也有这种感觉…不过如果她有什么想法，我们肯定会在这个过程中慢慢知道的。</simple_dialog>
+      <simple_dialog pos="left" chara="ling" img="gal_ling" key="gal-line-eeeb9441-c5ee-11f0-af61-9184941efb97">话是这么说啦…算了不想了！我们还是先熟悉一下后续的日程安排吧。第一天安排的训练是什么呀，哥哥~</simple_dialog>
+      <simple_dialog pos="right" chara="zhe" img="gal_zhe" key="gal-line-eeeb9442-c5ee-11f0-af61-9184941efb97">呃…叠方块？</simple_dialog>
+      <simple_dialog pos="left" chara="ling" img="gal_ling" key="gal-line-eeeb9443-c5ee-11f0-af61-9184941efb97">诶？？</simple_dialog>
+    </scene>
+    <scene id="3" title="结尾">
+      <simple_dialog pos="left" chara="ling" img="gal_ling" key="gal-line-043a7180-c5ef-11f0-af61-9184941efb97">好！本周的训练就到这里，大家幸苦啦！</simple_dialog>
+      <simple_dialog pos="left" chara="zhe" img="gal_zhe" key="gal-line-043a7181-c5ef-11f0-af61-9184941efb97">嗯，这一周大家都练习得很刻苦，不少地方都有进步呢。</simple_dialog>
+      <simple_dialog pos="right" chara="ng" img="gal_ng_3" key="gal-line-043a7182-c5ef-11f0-af61-9184941efb97">确实，连千夏的表演都变得可圈可点，助教真厉害呢~</simple_dialog>
+      <simple_dialog pos="right" chara="qx" img="gal_qx_5" key="gal-line-043a7183-c5ef-11f0-af61-9184941efb97">你你你什么意思！我可是很努力的好吧！</simple_dialog>
+      <simple_dialog pos="right" chara="ar" img="gal_ar_1" key="gal-line-043a7184-c5ef-11f0-af61-9184941efb97">咳咳！——多亏了助教！我们下周还会继续加油的！</simple_dialog>
+      <simple_dialog pos="left" chara="ling" img="gal_ling" key="gal-line-043a7185-c5ef-11f0-af61-9184941efb97">嗯嗯~那先这样啦，我们现在回去整理一下训练复盘，以及下周的训练计划啦。</simple_dialog>
+      <simple_dialog pos="left" chara="zhe" img="gal_zhe" key="gal-line-043a7186-c5ef-11f0-af61-9184941efb97">周末大家就好好休息吧，劳逸结合也是很重要的，下周见。</simple_dialog>
+      <simple_dialog pos="right" chara="qx" img="gal_qx_6" key="gal-line-043a7187-c5ef-11f0-af61-9184941efb97">那个…助教们已经下线了吗？</simple_dialog>
+      <simple_dialog pos="left" chara="ng" img="gal_ng_1" key="gal-line-043a7188-c5ef-11f0-af61-9184941efb97">嗯嗯，摄像头已经关闭了~</simple_dialog>
+      <simple_dialog pos="left" chara="ar" img="gal_ar_1" key="gal-line-043a7189-c5ef-11f0-af61-9184941efb97">信号显示，助教们已经断开连接…</simple_dialog>
+      <simple_dialog pos="right" chara="qx" img="gal_qx_3" key="gal-line-043a718a-c5ef-11f0-af61-9184941efb97">呜哇…我不行了，完全动不了了…南宫，帮我翻个身…</simple_dialog>
+      <simple_dialog pos="left" chara="ng" img="gal_ng_1" key="gal-line-043a718b-c5ef-11f0-af61-9184941efb97">我光是站在这儿就已经竭尽全力了，你还是老老实实躺着吧~</simple_dialog>
+      <simple_dialog pos="right" chara="ar" img="gal_ar_6" key="gal-line-043a718c-c5ef-11f0-af61-9184941efb97">虽然训练强度真的很高，但这一周…我们真的有了不少进步呢！</simple_dialog>
+      <simple_dialog pos="left" chara="ng" img="gal_ng_1" key="gal-line-043a718d-c5ef-11f0-af61-9184941efb97">嗯，说实话，我最开始对助教的态度…其实是有点怀疑的哦~</simple_dialog>
+      <simple_dialog pos="right" chara="qx" img="gal_qx_6" key="gal-line-043a718e-c5ef-11f0-af61-9184941efb97">哼哼~我记得某人说，这种随便挂在网上的便宜委托，肯定只会招来骗子来着~</simple_dialog>
+      <simple_dialog pos="right" chara="ar" img="gal_ar_1" key="gal-line-043a718f-c5ef-11f0-af61-9184941efb97">是呢，明明助教费非常便宜…可他们两人却很专业、很用心呢！</simple_dialog>
+      <simple_dialog pos="right" chara="qx" img="gal_qx_4" key="gal-line-043a7190-c5ef-11f0-af61-9184941efb97">等等…突然有点怀疑，南宫，你没有在背后做什么小动作吧，比如…用自己的钱补贴…</simple_dialog>
+      <simple_dialog pos="left" chara="ng" img="gal_ng_6" key="gal-line-043a7191-c5ef-11f0-af61-9184941efb97">什、什么…没有啊，当然没有！</simple_dialog>
+      <simple_dialog pos="right" chara="qx" img="gal_qx_5" key="gal-line-043a7192-c5ef-11f0-af61-9184941efb97">盯——</simple_dialog>
+      <simple_dialog pos="left" chara="ng" img="gal_ng_3" key="gal-line-043a7193-c5ef-11f0-af61-9184941efb97">咳咳！助教真的很专业，还总能请到一些厉害的协助人帮忙…让我有点刮目相看了！</simple_dialog>
+      <simple_dialog pos="right" chara="ar" img="gal_ar_2" key="gal-line-043a7194-c5ef-11f0-af61-9184941efb97">啊。已经开始期待下周的训练了呢~</simple_dialog>
+      <simple_dialog pos="right" chara="qx" img="gal_qx_1" key="gal-line-043a7195-c5ef-11f0-af61-9184941efb97">等等，南宫，你给我说清楚！</simple_dialog>
+    </scene>
+    <scene id="4" title="新手引导前">
+      <simple_dialog pos="right" chara="ng" img="gal_ng_3" key="gal-line-15f72760-c5ef-11f0-af61-9184941efb97">就是这样，欢迎来到我们的训练室，「助教大人」~</simple_dialog>
+      <simple_dialog pos="left" chara="ling" img="gal_ling" key="gal-line-15f72761-c5ef-11f0-af61-9184941efb97">哦~你们的训练室很不错呢！让我看看，首先应该做的是…</simple_dialog>
+      <simple_dialog pos="left" chara="zhe" img="gal_zhe" key="gal-line-15f72762-c5ef-11f0-af61-9184941efb97">先进行一个能力测试，好初步了解一下「妄想天使」的各位。</simple_dialog>
+      <simple_dialog pos="left" chara="ling" img="gal_ling" key="gal-line-15f72763-c5ef-11f0-af61-9184941efb97">对对！那么先辛苦大家，进行一个简单的小测试吧~</simple_dialog>
+    </scene>
+    <scene id="5" title="新手引导后">
+      <simple_dialog pos="left" chara="ar" img="gal_ar_2" key="gal-line-2b691d10-c5ef-11f0-af61-9184941efb97">我们的声音和舞步，和这个是同步的诶…</simple_dialog>
+      <simple_dialog pos="right" chara="ng" img="gal_ng_4" key="gal-line-2b691d11-c5ef-11f0-af61-9184941efb97">居然能够把所有的演出动作转化为方块，再通过操作方块的形式来指导我们训练…</simple_dialog>
+      <simple_dialog pos="right" chara="ng" img="gal_ng_3" key="gal-line-2b691d12-c5ef-11f0-af61-9184941efb97">这样的话，训练内容都变得可视化了，训练目标也变得非常明确呢~</simple_dialog>
+      <simple_dialog pos="right" chara="qx" img="gal_qx_2" key="gal-line-2b694420-c5ef-11f0-af61-9184941efb97">我我我从来没见过这样的技术！太厉害了助教！</simple_dialog>
+      <simple_dialog pos="left" chara="ling" img="gal_ling" key="gal-line-2b694421-c5ef-11f0-af61-9184941efb97">也没那么厉害啦~嘿嘿。</simple_dialog>
+      <simple_dialog pos="right" chara="qx" img="gal_qx_6" key="gal-line-2b694422-c5ef-11f0-af61-9184941efb97">助教，我们接下来的训练是什么呀？</simple_dialog>
+      <simple_dialog pos="right" chara="ng" img="gal_ng_6" key="gal-line-2b694423-c5ef-11f0-af61-9184941efb97">小千夏~我知道你很急，但你先别急——先想想，是不是忘了什么很重要的事？</simple_dialog>
+      <simple_dialog pos="right" chara="qx" img="gal_qx_6" key="gal-line-2b694424-c5ef-11f0-af61-9184941efb97">很…很重要的事，哦！你是说那个欢…唔！</simple_dialog>
+      <simple_dialog pos="right" chara="ng" img="gal_ng_3" key="gal-line-2b694425-c5ef-11f0-af61-9184941efb97">对对对！就是我们答应老师的那个，每日训练签到~今天还没签到打卡呢！</simple_dialog>
+      <simple_dialog pos="right" chara="ar" img="gal_ar_1" key="gal-line-2b694426-c5ef-11f0-af61-9184941efb97">嗯嗯，助教也一起过来这边吧~</simple_dialog>
+      <simple_dialog chara="-2" key="gal-line-b2334040-f746-11f0-a81b-3516f1385c27">[em bold] [/em]</simple_dialog>
+      <bg></bg>
+      <simple_dialog pos="center" chara="ng" key="gal-line-2b694427-c5ef-11f0-af61-9184941efb97">铛铛铛！有没有被吓到呀，助教~</simple_dialog>
+      <simple_dialog pos="center" chara="qx" key="gal-line-2b694428-c5ef-11f0-af61-9184941efb97">啊啊啊！南宫，但为什么要偷偷朝我放礼花——彩带都挂到我头发上啦！</simple_dialog>
+      <simple_dialog pos="center" chara="ng" key="gal-line-2b694429-c5ef-11f0-af61-9184941efb97">嗯哼~这是对某个小笨蛋差点说漏惊喜的惩罚！</simple_dialog>
+      <simple_dialog pos="center" chara="ar" key="gal-line-2b69442a-c5ef-11f0-af61-9184941efb97">先…先别闹啦——总之，非常感谢助教愿意接受委托，指导我们训练！</simple_dialog>
+      <simple_dialog pos="center" chara="qx" key="gal-line-2b69442b-c5ef-11f0-af61-9184941efb97">嗯嗯…我们会很努力很努力地训练——绝、绝对不会偷懒！</simple_dialog>
+      <simple_dialog pos="center" chara="ng" key="gal-line-2b69442c-c5ef-11f0-af61-9184941efb97">哎呀，在这个专程欢迎助教的场合，我们有更应该说的话吧？</simple_dialog>
+      <simple_dialog pos="center" chara="ar" key="gal-line-2b69442d-c5ef-11f0-af61-9184941efb97">嗯，那，我们一起说吧，三、二、一…</simple_dialog>
+      <simple_dialog pos="center" chara="group" key="gal-line-2b69442e-c5ef-11f0-af61-9184941efb97">欢迎助教加入「妄想天使」训练小组！</simple_dialog>
+    </scene>
+  </scripts>
+</data>
